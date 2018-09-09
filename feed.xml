@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/Zhouyao-blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Zhouyao-blog/" rel="alternate" type="text/html" /><updated>2018-09-09T17:31:45+08:00</updated><id>http://localhost:4000/Zhouyao-blog/</id><title type="html">周耀的博客</title><subtitle>你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">我搜集的深度学习资料</title><link href="http://localhost:4000/Zhouyao-blog/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.html" rel="alternate" type="text/html" title="我搜集的深度学习资料" /><published>2018-09-09T00:00:00+08:00</published><updated>2018-09-09T00:00:00+08:00</updated><id>http://localhost:4000/Zhouyao-blog/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99</id><content type="html" xml:base="http://localhost:4000/Zhouyao-blog/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.html">&lt;h1 id=&quot;我的学习资料总结&quot;&gt;我的学习资料总结&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;我是受&lt;a href=&quot;http://www.fast.ai/2017/04/06/alternatives/&quot;&gt;这篇博客&lt;/a&gt;的启发,才开始写这篇博客&lt;/li&gt;
+  &lt;li&gt;写技术博客的一些&lt;a href=&quot;https://jvns.ca/blog/2016/05/22/how-do-you-write-blog-posts/&quot;&gt;建议&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;选择使用tensorflow的理由&quot;&gt;选择使用tensorflow的理由&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;有详细的课程总结,斯坦福的cs20 是一个介绍tensorflow入门的课程,课程中有详细的大纲&lt;a href=&quot;http://web.stanford.edu/class/cs20si/syllabus.html&quot;&gt;课程主页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;里面包括&lt;a href=&quot;https://docs.google.com/document/d/1gWm3uBnbU6wxZAm0VAiSV_8odzfaE7yEG1lW-NO34fI/edit&quot;&gt;简单介绍&lt;/a&gt; 包括tensorflow的历史,流行趋势等&lt;/li&gt;
+  &lt;li&gt;一些&lt;a href=&quot;https://docs.google.com/document/d/1FSPNZFQsnaUVeTo0OQ2RrEZ0f4el9bIGI5sQALbG_F0/edit&quot;&gt;底层操作&lt;/a&gt;例api介绍,例如变量,数据结构,导入数据等,包括tensorboard这可可视化的工具,使用tensorboard能非常方便的可视化直观的理解你的模型这一章节内容最为重要&lt;/li&gt;
+  &lt;li&gt;Google开发有TPU硬件来加速tensorflow执行,如果你没有NVIDIA的硬件,当你需要大量训练,使用TPU是一个好主意,而且google对新注册云计算平台的用户有赠送300美元的代金券,能够极大的降低你的使用成本. 期中文档中有大量的TPU的介绍和示例,例如这个mnist的&lt;a href=&quot;https://cloud.google.com/tpu/docs/tutorials/mnist&quot;&gt;手写体识别&lt;/a&gt;,TPU的&lt;a href=&quot;https://cloud.google.com/blog/products/gcp/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu&quot;&gt;更深入的了解&lt;/a&gt; TPU的&lt;a href=&quot;https://blog.riseml.com/benchmarking-googles-new-tpuv2-121c03b71384&quot;&gt;性价比性能评测&lt;/a&gt; TPU开放的时候的&lt;a href=&quot;https://cloudplatform.googleblog.com/2018/06/Cloud-TPU-now-offers-preemptible-pricing-and-global-availability.html&quot;&gt;博客声明&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;google同样开放了它的一个colab,方便广大开发者,学习深度学习时,免费上手使用,详细的colab这篇&lt;a href=&quot;https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d&quot;&gt;关于colab的博文&lt;/a&gt;能给你带来直观的感受&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;直观理解cnn&quot;&gt;直观理解CNN&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scs.ryerson.ca/~aharley/neural-networks/&quot;&gt;解密cnn&lt;/a&gt;一位加拿大的博主,从原理到代码,包括六大部分,这个是Andrew NG 课程中CNN作业中的参考链接&lt;/li&gt;
+  &lt;li&gt;这个链接,是一个手写数字可视化的&lt;a href=&quot;http://scs.ryerson.ca/~aharley/vis/conv/flat.html&quot;&gt;在线链接&lt;/a&gt;,能方便的帮组你理解cnn中没一层的意义&lt;/li&gt;
+  &lt;li&gt;这个链接是深度学习的&lt;a href=&quot;http://playground.tensorflow.org/&quot;&gt;可视化过程&lt;/a&gt;你能通过调整参数例如:隐藏层的个数,输入数据的形状等,直观的感受训练过程中参数对结果的影响&lt;/li&gt;
+  &lt;li&gt;从&lt;a href=&quot;https://medium.com/impactai/cnns-from-different-viewpoints-fab7f52d159c&quot;&gt;不同的角度&lt;/a&gt;理解cnn操作包括从方程角度,从神经网络角度,从矩阵乘法角度&lt;/li&gt;
+  &lt;li&gt;不同的核函数,对图片的不同影响的一个在线&lt;a href=&quot;http://setosa.io/ev/image-kernels/&quot;&gt;实例demo&lt;/a&gt;你甚至可以上传一个你自己的照片去实时的感受,kernel 对照片的影响,除此之外,作者还有很多其他有趣的&lt;a href=&quot;http://setosa.io/ev/&quot;&gt;可视化的例子&lt;/a&gt;,例如:指数函数,线性函数,pca等&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pair-code.github.io/facets/&quot;&gt;探索多维数据的工具&lt;/a&gt;从数据分布,到数据浏览到数据筛选&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;fastai的一些博客&quot;&gt;fastai的一些博客&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;按&lt;a href=&quot;http://www.fast.ai/topics/#advice&quot;&gt;主题分类的博文&lt;/a&gt;它的博文中,大量引用其他人的链接,这种方式,使得阅读者能够按图索骥,寻找自己想要的资料&lt;/li&gt;
+  &lt;li&gt;fastai 数值线性代数的课程&lt;a href=&quot;https://github.com/fastai/numerical-linear-algebra&quot;&gt;numerical-linear-algebra&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;最具有宝藏效果的是这个网站的&lt;a href=&quot;http://forums.fast.ai/c/lin-alg&quot;&gt;论坛&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;学习课程资源目录&quot;&gt;学习课程资源目录&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cs20 斯坦福介绍&lt;a href=&quot;http://web.stanford.edu/class/cs20si/syllabus.html&quot;&gt;tensorflow框架&lt;/a&gt;的本科基础课&lt;/li&gt;
+  &lt;li&gt;cs230 Andrew NG 在&lt;a href=&quot;http://cs230.stanford.edu/syllabus.html&quot;&gt;coursera课程中的补充&lt;/a&gt;包括&lt;a href=&quot;http://cs230.stanford.edu/files/cs230midterm.pdf&quot;&gt;期中作业&lt;/a&gt;和期末的&lt;a href=&quot;http://cs230.stanford.edu/projects.html&quot;&gt;大作业&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Andrew NG 课程的&lt;a href=&quot;http://www.ai-start.com/&quot;&gt;字幕整理的pdf&lt;/a&gt;中文网站&lt;/li&gt;
+  &lt;li&gt;NG&lt;a href=&quot;https://github.com/Kulbear/deep-learning-coursera&quot;&gt;课后习题带答案&lt;/a&gt; 和课后习题&lt;a href=&quot;https://github.com/stormstone/deeplearning.ai&quot;&gt;不带答案&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cs229 Andrew NG &lt;a href=&quot;&quot;&gt;机器学习的视频&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cs231 FeiFei Li DL在&lt;a href=&quot;http://cs231n.stanford.edu&quot;&gt;图像方面的应用&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;google 的DL&lt;a href=&quot;https://www.coursera.org/promo/NEXTExtended?utm_source=googlecloud&amp;amp;utm_medium=institutions&amp;amp;utm_campaign=kaggle_competition_2018&quot;&gt;免费专项课程&lt;/a&gt;参加竞赛还免费赠送代金券&lt;/li&gt;
+  &lt;li&gt;mathwold对一些数学&lt;a href=&quot;http://mathworld.wolfram.com/CorrelationCoefficient.html&quot;&gt;名词的解释&lt;/a&gt;很容易懂&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">我的学习资料总结</summary></entry></feed>
