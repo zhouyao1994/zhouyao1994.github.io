@@ -3,7 +3,7 @@ description: 你好啊,我是周耀,这是我的博客,希望你在读过之后�
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
+url: "https://zhouyao1994.github.io" # change this to the base hostname & protocol for your site
 
 google_analytics:
 # Zhouyao-blog date format
