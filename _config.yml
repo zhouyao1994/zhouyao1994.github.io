@@ -1,1 +1,30 @@
-theme: jekyll-theme-cayman
+title: 周耀的博客
+description: 你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.
+show_downloads: true
+
+baseurl: "/Zhouyao-blog/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
+
+google_analytics:
+# Zhouyao-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+Zhouyao-blog:
+  date_format: "%Y-%m-%d"
+
+theme: # leave it empty
+
+# social
+author: "zhouyao"
+image: /thumbnail-jumbo.png
+twitter:
+  username: zhouyao
+#  site:
+facebook:
+  #publisher: 1592372034171500
+  #profile_id: 1809805629
+  app_id: 1798910940422432 # Zhouyao-blog
+  #authors: lorepirri
+#  admins:
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
