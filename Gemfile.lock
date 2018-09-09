@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-cayman-blog (0.0.6)
+    jekyll-theme-blog (0.0.6)
       jekyll (~> 3.3)
 
 GEM
@@ -69,7 +69,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
-  jekyll-theme-cayman-blog!
+  jekyll-theme-blog!
 
 BUNDLED WITH
    1.16.4

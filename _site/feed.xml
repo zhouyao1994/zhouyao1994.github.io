@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-09T21:09:18+08:00</updated><id>http://localhost:4000/</id><title type="html">周耀的博客</title><subtitle>你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">我搜集的深度学习资料</title><link href="http://localhost:4000/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.html" rel="alternate" type="text/html" title="我搜集的深度学习资料" /><published>2018-09-09T00:00:00+08:00</published><updated>2018-09-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99</id><content type="html" xml:base="http://localhost:4000/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.html">&lt;h1 id=&quot;我的学习资料总结&quot;&gt;我的学习资料总结&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-09T22:16:31+08:00</updated><id>http://localhost:4000/</id><title type="html">周耀的博客</title><subtitle>你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">我搜集的深度学习资料</title><link href="http://localhost:4000/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.html" rel="alternate" type="text/html" title="我搜集的深度学习资料" /><published>2018-09-09T00:00:00+08:00</published><updated>2018-09-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99</id><content type="html" xml:base="http://localhost:4000/2018/09/09/%E6%88%91%E6%90%9C%E9%9B%86%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.html">&lt;h1 id=&quot;我的学习资料总结&quot;&gt;我的学习资料总结&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;我是受&lt;a href=&quot;http://www.fast.ai/2017/04/06/alternatives/&quot;&gt;这篇博客&lt;/a&gt;的启发,才开始写这篇博客&lt;/li&gt;
@@ -18,15 +18,17 @@
 &lt;h1 id=&quot;直观理解cnn&quot;&gt;直观理解CNN&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://scs.ryerson.ca/~aharley/neural-networks/&quot;&gt;解密cnn&lt;/a&gt;一位加拿大的博主,从原理到代码,包括六大部分,这个是Andrew NG 课程中CNN作业中的参考链接&lt;/li&gt;
-  &lt;li&gt;这个链接,是一个手写数字可视化的&lt;a href=&quot;http://scs.ryerson.ca/~aharley/vis/conv/flat.html&quot;&gt;在线链接&lt;/a&gt;,能方便的帮组你理解cnn中没一层的意义&lt;/li&gt;
   &lt;li&gt;这个链接是深度学习的&lt;a href=&quot;http://playground.tensorflow.org/&quot;&gt;可视化过程&lt;/a&gt;你能通过调整参数例如:隐藏层的个数,输入数据的形状等,直观的感受训练过程中参数对结果的影响&lt;/li&gt;
-  &lt;li&gt;从&lt;a href=&quot;https://medium.com/impactai/cnns-from-different-viewpoints-fab7f52d159c&quot;&gt;不同的角度&lt;/a&gt;理解cnn操作包括从方程角度,从神经网络角度,从矩阵乘法角度&lt;/li&gt;
+  &lt;li&gt;这个链接,是一个手写数字可视化的&lt;a href=&quot;http://scs.ryerson.ca/~aharley/vis/conv/flat.html&quot;&gt;在线链接&lt;/a&gt;,能方便的帮助你理解cnn中每一层的意义&lt;/li&gt;
   &lt;li&gt;不同的核函数,对图片的不同影响的一个在线&lt;a href=&quot;http://setosa.io/ev/image-kernels/&quot;&gt;实例demo&lt;/a&gt;你甚至可以上传一个你自己的照片去实时的感受,kernel 对照片的影响,除此之外,作者还有很多其他有趣的&lt;a href=&quot;http://setosa.io/ev/&quot;&gt;可视化的例子&lt;/a&gt;,例如:指数函数,线性函数,pca等&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pair-code.github.io/facets/&quot;&gt;探索多维数据的工具&lt;/a&gt;从数据分布,到数据浏览到数据筛选&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scs.ryerson.ca/~aharley/neural-networks/&quot;&gt;解密cnn&lt;/a&gt;一位加拿大的博主,从原理到代码,包括六大部分,这个是Andrew NG 课程中CNN作业中的参考链接&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;从&lt;a href=&quot;https://medium.com/impactai/cnns-from-different-viewpoints-fab7f52d159c&quot;&gt;不同的角度&lt;/a&gt;理解cnn操作包括从方程角度,从神经网络角度,从矩阵乘法角度&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;facets&lt;a href=&quot;https://pair-code.github.io/facets/&quot;&gt;探索多维数据的工具&lt;/a&gt;从数据分布,到数据浏览到数据筛选&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;fastai的一些博客&quot;&gt;fastai的一些博客&lt;/h1&gt;
+&lt;h1 id=&quot;fastai的一些博客&quot;&gt;fast.ai的一些博客&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;按&lt;a href=&quot;http://www.fast.ai/topics/#advice&quot;&gt;主题分类的博文&lt;/a&gt;它的博文中,大量引用其他人的链接,这种方式,使得阅读者能够按图索骥,寻找自己想要的资料&lt;/li&gt;
@@ -35,14 +37,15 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;学习课程资源目录&quot;&gt;学习课程资源目录&lt;/h1&gt;
-
 &lt;ul&gt;
+  &lt;li&gt;Andrew NG 在Cousera上的&lt;a href=&quot;https://www.coursera.org/specializations/deep-learning&quot;&gt;深度学习课程&lt;/a&gt;,如果网络访问不流畅,在国内的&lt;a href=&quot;https://mooc.study.163.com/smartSpec/detail/1001319001.htm&quot;&gt;网易云课堂&lt;/a&gt;也有.即使是国内网站有,我还是建议你去cousera上学习,原因是,coursera上有配套的论坛,当你遇到疑惑的时候,可以到论坛中寻找,相信你不是第一个遇到疑惑的人,还有一个原因是课后习题,可以直接在网页上做,不需要自己搭建环境&lt;/li&gt;
   &lt;li&gt;cs20 斯坦福介绍&lt;a href=&quot;http://web.stanford.edu/class/cs20si/syllabus.html&quot;&gt;tensorflow框架&lt;/a&gt;的本科基础课&lt;/li&gt;
   &lt;li&gt;cs230 Andrew NG 在&lt;a href=&quot;http://cs230.stanford.edu/syllabus.html&quot;&gt;coursera课程中的补充&lt;/a&gt;包括&lt;a href=&quot;http://cs230.stanford.edu/files/cs230midterm.pdf&quot;&gt;期中作业&lt;/a&gt;和期末的&lt;a href=&quot;http://cs230.stanford.edu/projects.html&quot;&gt;大作业&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Andrew NG 课程的&lt;a href=&quot;http://www.ai-start.com/&quot;&gt;字幕整理的pdf&lt;/a&gt;中文网站&lt;/li&gt;
-  &lt;li&gt;NG&lt;a href=&quot;https://github.com/Kulbear/deep-learning-coursera&quot;&gt;课后习题带答案&lt;/a&gt; 和课后习题&lt;a href=&quot;https://github.com/stormstone/deeplearning.ai&quot;&gt;不带答案&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Andrew NG 课程的&lt;a href=&quot;http://www.ai-start.com/&quot;&gt;字幕整理的pdf&lt;/a&gt;中文网站,这个网站,还有打包好的视频文件,如果网速不好,可以下载下来之后,再观看.&lt;/li&gt;
+  &lt;li&gt;Andrew NG&lt;a href=&quot;https://github.com/Kulbear/deep-learning-coursera&quot;&gt;课后习题带答案&lt;/a&gt; 和课后习题&lt;a href=&quot;https://github.com/stormstone/deeplearning.ai&quot;&gt;不带答案&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;cs229 Andrew NG &lt;a href=&quot;&quot;&gt;机器学习的视频&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;cs231 FeiFei Li DL在&lt;a href=&quot;http://cs231n.stanford.edu&quot;&gt;图像方面的应用&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;google 的DL&lt;a href=&quot;https://www.coursera.org/promo/NEXTExtended?utm_source=googlecloud&amp;amp;utm_medium=institutions&amp;amp;utm_campaign=kaggle_competition_2018&quot;&gt;免费专项课程&lt;/a&gt;参加竞赛还免费赠送代金券&lt;/li&gt;
   &lt;li&gt;mathwold对一些数学&lt;a href=&quot;http://mathworld.wolfram.com/CorrelationCoefficient.html&quot;&gt;名词的解释&lt;/a&gt;很容易懂&lt;/li&gt;
+  &lt;li&gt;复旦大学&lt;a href=&quot;https://nndl.github.io/&quot;&gt;邱锡鹏&lt;/a&gt;老师编写的深度学习教材&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">我的学习资料总结</summary></entry></feed>
