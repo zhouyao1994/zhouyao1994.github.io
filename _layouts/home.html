@@ -17,9 +17,9 @@ layout: default
         {% assign date_format = site.zhouyuao-blog.date_format | default: "%Y-%m-%d" %}
         <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
 
-        <h2>
+        <h3>
           <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{post.date | date: date_format}} - {{ post.title | escape }}</a>
-        </h2>
+        </h3>
         
         <!-- 不需要预览所以注释 -->
         <!-- <span>{{ post.excerpt | markdownify | truncatewords: 10 }}</span> -->
