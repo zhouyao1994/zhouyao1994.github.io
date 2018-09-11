@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-11T21:09:21+08:00</updated><id>http://localhost:4000/</id><title type="html">周耀的博客</title><subtitle>你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">Tensorflow tpu 实战</title><link href="http://localhost:4000/2018/09/11/tensorflow-TPU-%E5%AE%9E%E6%88%98.html" rel="alternate" type="text/html" title="Tensorflow tpu 实战" /><published>2018-09-11T00:00:00+08:00</published><updated>2018-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/11/tensorflow%20TPU%20%E5%AE%9E%E6%88%98</id><content type="html" xml:base="http://localhost:4000/2018/09/11/tensorflow-TPU-%E5%AE%9E%E6%88%98.html">&lt;h1 id=&quot;准备步骤&quot;&gt;准备步骤&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-11T22:03:57+08:00</updated><id>http://localhost:4000/</id><title type="html">周耀的博客</title><subtitle>你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">Tensorflow tpu 实战</title><link href="http://localhost:4000/2018/09/11/tensorflow-TPU-%E5%AE%9E%E6%88%98.html" rel="alternate" type="text/html" title="Tensorflow tpu 实战" /><published>2018-09-11T00:00:00+08:00</published><updated>2018-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/11/tensorflow%20TPU%20%E5%AE%9E%E6%88%98</id><content type="html" xml:base="http://localhost:4000/2018/09/11/tensorflow-TPU-%E5%AE%9E%E6%88%98.html">&lt;h1 id=&quot;准备步骤&quot;&gt;准备步骤&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -18,7 +18,34 @@
   &lt;li&gt;当你按照文档安装完gcloud的时候返现,initialize SDK 的时候,出现了问题.这是由于国内网络环境,无法访问google导致你需要用到proxy工具,&lt;a href=&quot;https://cloud.google.com/sdk/docs/proxy-settings&quot;&gt;这里&lt;/a&gt;有你配置proxy的文档&lt;/li&gt;
   &lt;li&gt;完成上面的配置,你已经可以脱离网页工具了,完全使用bash就可以做完实验了,等等,别忘了,你本次实验是为了体会TPU的性能的,你需要用到TPU的profile工具,来判断,TPU的性能是否被最大化利用,你能够在&lt;a href=&quot;https://cloud.google.com/tpu/docs/cloud-tpu-tools#profile_tab&quot;&gt;这个profile配置文件&lt;/a&gt;找到profile工具中各个选项详细的意义&lt;/li&gt;
   &lt;li&gt;当你完成这些之后,你希望在你以后使用tensorflow的过程中,能尽可能的充分利用它的效率,这个&lt;a href=&quot;https://www.tensorflow.org/performance/datasets_performance&quot;&gt;调优文档&lt;/a&gt;能给你带来一些有用的建议&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">准备步骤</summary></entry><entry><title type="html">深度学习的一些应用</title><link href="http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8.html" rel="alternate" type="text/html" title="深度学习的一些应用" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8.html">&lt;h1 id=&quot;深度学习有趣的应用&quot;&gt;深度学习有趣的应用&lt;/h1&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;debug工具tensorboard&quot;&gt;debug工具TensorBoard&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在&lt;a href=&quot;https://youtu.be/XcHWLsVmHvk?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&quot;&gt;这个视频中&lt;/a&gt;有tensorfboard 可视化的Debug工具,这个&lt;a href=&quot;https://github.com/tensorflow/tensorboard/blob/master/tensorboard/plugins/debugger/README.md&quot;&gt;文档中&lt;/a&gt;有介绍&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">准备步骤</summary></entry><entry><title type="html">Latex编辑器</title><link href="http://localhost:4000/2018/09/11/latex%E7%BC%96%E8%BE%91%E5%99%A8.html" rel="alternate" type="text/html" title="Latex编辑器" /><published>2018-09-11T00:00:00+08:00</published><updated>2018-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/11/latex%E7%BC%96%E8%BE%91%E5%99%A8</id><content type="html" xml:base="http://localhost:4000/2018/09/11/latex%E7%BC%96%E8%BE%91%E5%99%A8.html">&lt;h1 id=&quot;优秀的markdown编辑器&quot;&gt;优秀的markdown编辑器&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;typora编辑器,是一个跨平台,所见即所得的md编辑器,在这个&lt;a href=&quot;https://support.typora.io/Markdown-Reference/&quot;&gt;网站&lt;/a&gt;可以查到markdown的语法规则&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;typora-也是一个latex的好工具&quot;&gt;typora 也是一个LaTeX的好工具&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;使用&lt;code class=&quot;highlighter-rouge&quot;&gt;$$+enter&lt;/code&gt;快捷键就可以召唤出latex编辑器出来,而且会有预览r不知道行内怎么处理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;w_{1}+w_{2}=x&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;这个&lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Mathematics&quot;&gt;latex wikibook&lt;/a&gt;网站,可以查看到许多公式的示例,相信很多时候,也许直接对照着使用就可以&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在使用inline latex 工具的时候,需要打开设置,你能在&lt;a href=&quot;https://support.typora.io/Markdown-Reference/#inline-math&quot;&gt;这里&lt;/a&gt;找到参考,使用 的时候使用&lt;code class=&quot;highlighter-rouge&quot;&gt;${code}$&lt;/code&gt;包装就可以例如:&lt;code class=&quot;highlighter-rouge&quot;&gt;$x+x_2=y$&lt;/code&gt;可以渲染出这个效果$x+x_2=y$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">优秀的markdown编辑器</summary></entry><entry><title type="html">深度学习的一些应用</title><link href="http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8.html" rel="alternate" type="text/html" title="深度学习的一些应用" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8.html">&lt;h1 id=&quot;深度学习有趣的应用&quot;&gt;深度学习有趣的应用&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;用深度学习帮助辨别农业&lt;a href=&quot;https://www.youtube.com/watch?v=NlpS-DhayQA&amp;amp;index=3&amp;amp;list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&quot;&gt;植物病虫害&lt;/a&gt;&lt;/li&gt;

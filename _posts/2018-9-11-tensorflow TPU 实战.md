@@ -6,8 +6,8 @@ layout: post
 
 * 也许你在这篇博客了解[深度学习的应用](https://www.youtube.com/watch?v=mWl45NkFBOc&list=PLOU2XLYxmsIKGc_NBoIhTn2Qhraji53cv),之后你从这个[视频](https://www.youtube.com/watch?v=zEOtG-ChmZE),中了解到了TPU,被它强大的性能所吸引.在[这篇博客]((https://blog.riseml.com/benchmarking-googles-new-tpuv2-121c03b71384))里对TPU和英伟达的GPU性价比做了对比得出的结论是:通NVIDIA的GPU相比同样的计算任务TPU只需要你花费一半的费用,详细的[测试过程](https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e)你可以在这篇文章中找到,经过这番了解,你对TPU产生了兴趣,想要真正的去尝试一下使用它
 
-- 首先,你需要能保证网络通畅,能够在网页访问google cloud网站,并且有一个google账户,同时开通GCP (google compute platform),如果你在注册的时候能够绑定一张信用卡,就能获得100美元的免费代金券,有效期一年,用来试用用google的云计算工具,你能够在[这篇文章]()找到详细的教程
-- 在google的[这篇文档]()中你能找到step by step 试用tpu的步骤,这份文档,使用的是MNIST数据集,用来进行手写体识别,当你按流程走完,之后,你会发现一个有趣的现象是:TPU运算的过程是:首先,从storage bulket(存储通,类似s3服务)中读取数据,之后,再通过cpu运算送入TPU运算.TPU并不能从你的主机里面读取你的数据,
+* 首先,你需要能保证网络通畅,能够在网页访问google cloud网站,并且有一个google账户,同时开通GCP (google compute platform),如果你在注册的时候能够绑定一张信用卡,就能获得100美元的免费代金券,有效期一年,用来试用用google的云计算工具,你能够在[这篇文章]()找到详细的教程
+* 在google的[这篇文档]()中你能找到step by step 试用tpu的步骤,这份文档,使用的是MNIST数据集,用来进行手写体识别,当你按流程走完,之后,你会发现一个有趣的现象是:TPU运算的过程是:首先,从storage bulket(存储通,类似s3服务)中读取数据,之后,再通过cpu运算送入TPU运算.TPU并不能从你的主机里面读取你的数据,
 
 # 调优步骤
 
@@ -18,3 +18,7 @@ layout: post
 * 当你按照文档安装完gcloud的时候返现,initialize SDK 的时候,出现了问题.这是由于国内网络环境,无法访问google导致你需要用到proxy工具,[这里](https://cloud.google.com/sdk/docs/proxy-settings)有你配置proxy的文档
 * 完成上面的配置,你已经可以脱离网页工具了,完全使用bash就可以做完实验了,等等,别忘了,你本次实验是为了体会TPU的性能的,你需要用到TPU的profile工具,来判断,TPU的性能是否被最大化利用,你能够在[这个profile配置文件](https://cloud.google.com/tpu/docs/cloud-tpu-tools#profile_tab)找到profile工具中各个选项详细的意义
 * 当你完成这些之后,你希望在你以后使用tensorflow的过程中,能尽可能的充分利用它的效率,这个[调优文档](https://www.tensorflow.org/performance/datasets_performance)能给你带来一些有用的建议
+
+# debug工具TensorBoard
+
+* 在[这个视频中](https://youtu.be/XcHWLsVmHvk?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN)有tensorfboard 可视化的Debug工具,这个[文档中](https://github.com/tensorflow/tensorboard/blob/master/tensorboard/plugins/debugger/README.md)有介绍
