@@ -11,7 +11,7 @@
 
     
 
-    <title>Latex编辑器</title>
+    <title>优秀的markdown编辑器typora</title>
 
     
       <!-- Update your html tag to include the itemscope and itemtype attributes. -->
@@ -39,7 +39,7 @@
 
 
 <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="Latex编辑器">
+<meta itemprop="name" content="优秀的markdown编辑器typora">
 <meta itemprop="description" content="优秀的markdown编辑器">
 
   <meta itemprop="image" content="http://localhost:4000/thumbnail-jumbo.png">
@@ -50,7 +50,7 @@
 
 
 
-<meta name="twitter:title" content="Latex编辑器">
+<meta name="twitter:title" content="优秀的markdown编辑器typora">
 <meta name="twitter:description" content="优秀的markdown编辑器">
 
 
@@ -62,12 +62,12 @@
   <meta name="twitter:image:src" content="http://localhost:4000/thumbnail-jumbo.png">
   <meta property="twitter:image" content="http://localhost:4000/thumbnail-jumbo.png">
 
-<meta property="twitter:url" content="http://localhost:4000/2018/09/11/latex%E7%BC%96%E8%BE%91%E5%99%A8.html">
+<meta property="twitter:url" content="http://localhost:4000/2018/09/11/%E4%BC%98%E7%A7%80%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8typora.html">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Latex编辑器" />
+<meta property="og:title" content="优秀的markdown编辑器typora" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:4000/2018/09/11/latex%E7%BC%96%E8%BE%91%E5%99%A8.html" />
+<meta property="og:url" content="http://localhost:4000/2018/09/11/%E4%BC%98%E7%A7%80%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8typora.html" />
 
   <meta property="og:image" content="http://localhost:4000/thumbnail-jumbo.png" />
 
@@ -104,7 +104,7 @@
 
     
 
-    <link rel="canonical" href="http://localhost:4000/2018/09/11/latex%E7%BC%96%E8%BE%91%E5%99%A8.html">
+    <link rel="canonical" href="http://localhost:4000/2018/09/11/%E4%BC%98%E7%A7%80%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8typora.html">
 
     
 
@@ -196,7 +196,7 @@
     
 
     <section class="page-header">
-      <h1 class="project-name">Latex编辑器</h1>
+      <h1 class="project-name">优秀的markdown编辑器typora</h1>
       <h2 class="project-tagline"></h2>
       
       <!-- Post tagline -->
@@ -220,7 +220,7 @@
       <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <!-- <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Latex编辑器</h1>
+    <h1 class="post-title" itemprop="name headline">优秀的markdown编辑器typora</h1>
     <p class="post-meta">
       <time datetime="2018-09-11T00:00:00+08:00" itemprop="datePublished">
         
@@ -234,7 +234,13 @@
 
 <ul>
   <li>typora编辑器,是一个跨平台,所见即所得的md编辑器,你在这里能够找到别人<a href="https://youtu.be/nhgw2ceclVc?t=157">录制的视频</a>,向你展示typora的功能,如果你觉得很有意思,想尝试以下markdown在这个<a href="https://support.typora.io/Markdown-Reference/">网站</a>可以查到markdown的语法规则,另外,本站的几乎所有的文章也是使用markdown语法用typora编写的</li>
+  <li>更有趣的是,typora跟yalm语法结合的很好,我在用jekii部署博客的时候,往往需要在每篇博客头部,声明下面的这个部分,而typora能够很优雅的帮助生成这个部分的代码</li>
 </ul>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="nn">---</span>
+</code></pre></div></div>
 
 <h1 id="typora-也是一个latex的好工具">typora 也是一个LaTeX的好工具</h1>
 
@@ -246,7 +252,7 @@
 
 <ul>
   <li>这个<a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">latex wikibook</a>网站,可以查看到许多公式的示例,相信很多时候,也许直接对照着使用就可以</li>
-  <li>在使用inline latex工具的时候,需要打开设置,你能在<a href="https://support.typora.io/Markdown-Reference/#inline-math">这里</a>找到参考,使用 的时候使用<code class="highlighter-rouge">${code}$</code>包装就可以例如:<code class="highlighter-rouge">$x+x_2=y$</code>可以渲染出这个效果$x+x_2=y$</li>
+  <li>在使用typora如果你想使用内联公式,例如:使用<code class="highlighter-rouge">$x+x_2=y$</code>可以渲染出$x+x_2=y$效果,你需要使用inline latex特性,这个特性默认关闭,需要打开设置,你能在<a href="https://support.typora.io/Markdown-Reference/#inline-math">这里</a>找到开启这个特性的参考,设置好之后,你就可以使用<code class="highlighter-rouge">${code}$</code>包装使用内联公式</li>
   <li>当用typora编写公式的时候,gitpage也许不能很好的支持渲染,你可以在head.html中添加mathjet的js代码,具体的你可以参考stackoverflow中的有关<a href="https://stackoverflow.com/questions/26275645/how-to-supported-latex-in-github-pages/46765337#46765337">gitpage支持latex的建议</a></li>
 </ul>
 
