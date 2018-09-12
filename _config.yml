@@ -1,5 +1,5 @@
-title: 周耀的博客
-description: 你好啊,我是周耀,这是我的博客,希望你在读过之后能给你带来帮助.
+title: 羽光的博客
+description: Hi,你好啊.我是周耀,网名羽光,这是我的博客,希望你在读过之后能给你带来帮助.
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -7,7 +7,7 @@ url: "https://zhouyao1994.github.io" # change this to the base hostname & protoc
 
 google_analytics:
 # Zhouyao-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# refer to http://zhouyao1994.github.io/ if you want to customize this
 Zhouyao-blog:
   date_format: "%Y-%m-%d"
 
@@ -22,7 +22,7 @@ twitter:
 facebook:
   #publisher: 1592372034171500
   #profile_id: 1809805629
-  app_id: 1798910940422432 # Zhouyao-blog
+  app_id: 1 # Zhouyao-blog
   #authors: lorepirri
 #  admins:
 gems:
