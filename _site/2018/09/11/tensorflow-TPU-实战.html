@@ -32,7 +32,7 @@
 
   <meta name="author" content="zhouyao">
 
-<meta name="description" content="准备步骤" />
+<meta name="description" content="TensorFlow TPU 实战" />
 
 
 
@@ -40,7 +40,7 @@
 
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="Tensorflow tpu 实战">
-<meta itemprop="description" content="准备步骤">
+<meta itemprop="description" content="TensorFlow TPU 实战">
 
   <meta itemprop="image" content="http://localhost:4000/thumbnail-jumbo.png">
 
@@ -51,7 +51,7 @@
 
 
 <meta name="twitter:title" content="Tensorflow tpu 实战">
-<meta name="twitter:description" content="准备步骤">
+<meta name="twitter:description" content="TensorFlow TPU 实战">
 
 
   <meta name="twitter:creator" content="@zhouyao">
@@ -71,7 +71,7 @@
 
   <meta property="og:image" content="http://localhost:4000/thumbnail-jumbo.png" />
 
-<meta property="og:description" content="准备步骤" />
+<meta property="og:description" content="TensorFlow TPU 实战" />
 <meta property="og:site_name" content="羽光的博客" />
 
   <meta property="article:published_time" content="2018-09-11T00:00:00+08:00" />
@@ -230,7 +230,9 @@
   </header> -->
 
   <div itemprop="articleBody">
-    <h1 id="准备步骤">准备步骤</h1>
+    <h1 id="tensorflow-tpu-实战">TensorFlow TPU 实战</h1>
+
+<h2 id="准备步骤">准备步骤</h2>
 
 <ul>
   <li>
@@ -240,19 +242,19 @@
   <li>在google的<a href="">这篇文档</a>中你能找到step by step 试用tpu的步骤,这份文档,使用的是MNIST数据集,用来进行手写体识别,当你按流程走完,之后,你会发现一个有趣的现象是:TPU运算的过程是:首先,从storage bulket(存储通,类似s3服务)中读取数据,之后,再通过cpu运算送入TPU运算.TPU并不能从你的主机里面读取你的数据,</li>
 </ul>
 
-<h1 id="调优步骤">调优步骤</h1>
+<h2 id="调优步骤">调优步骤</h2>
 
 <ul>
   <li>在tensorflow dev summit 的<a href="https://youtu.be/SxOsJPaxHME?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN">一份YouTube演讲中</a> 有提到 让TPU跑的更快,这是由于TPU性能太强了,以致于发现绝大多数TPU出现性能慢的时候,都是由数据输入的速率跟不上TPU的计算能力造成的.通过一些简单的参数设置,能让你的TPU处理图片的速度从最初的150张image/s 到后来的600image/s再后来的1350image/s,最后速度能够达到2300image/s性能提升了15倍,这意味着,以前你需要使用7个小时才能训练完的数据,现在你半个小时就可以完成了</li>
   <li>你应该觉得很震撼.于是你在这份演讲附带的链接中,找到了这次profile的<a href="http://download.tensorflow.org/dev_summit_2018/cloud_tpu_traces.tgz">性能文件</a>在解压缩之后,你就可以用<code class="highlighter-rouge">tensorbord --logdir 1-simple</code>命令打开这份文件中的案例,可视化以下运行的过程.你可以好奇的左边点点,右边点点,看看这个工具都有哪些选项.如果你不知道怎么使用tensorboard,你可以在<a href="https://www.tensorflow.org/guide/summaries_and_tensorboard">这个文档中</a>找到教程,在<a href="https://www.youtube.com/watch?v=eBbEDRsCmv4">这个视频</a>中你能得到直观的了解,<a href="https://www.youtube.com/watch?v=XcHWLsVmHvk&amp;list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&amp;index=12">这个视频</a>让你得到更高级的了解</li>
-  <li>如果你按照上面的MNIST教程走过一篇,当你使用ctpu命令运行的时候,你会观察到,ctpu命令,起了一个250G的磁盘(待补充),一个配置很高的VM主机,你可能想能不能起一个配置低一点的VM这样能够减少你的花销.<a href="https://cloud.google.com/tpu/docs/custom-setup">这份文档</a>能够给你一个自定义定制VM的step by step 的教程</li>
-  <li>完成这样的实验教程之后,你会觉得在实验过程中,由于国内网速的原因,使用网页端的ssh速度慢,实在是不痛快,你想优化这个过程,然后你又了解到gcloud这个工具,能够使用命令行创建一个VM实例,TPU实例,GS实例,从而能够避免你一次次使用网页创建示例,由于网络的原因使用网页创建实例体验实在是不好,gcloud这个工具的出现你觉得真的是很有用.而且这个工具是可以在本地运行的,恰好你在Ubuntu桌面上而<a href="https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu">这份文档</a>告诉你如何安装gcloud</li>
-  <li>当你按照文档安装完gcloud的时候返现,initialize SDK 的时候,出现了问题.这是由于国内网络环境,无法访问google导致你需要用到proxy工具,<a href="https://cloud.google.com/sdk/docs/proxy-settings">这里</a>有你配置proxy的文档</li>
+  <li>如果你按照上面的MNIST教程走过一篇,当你使用ctpu命令运行的时候,你会观察到,ctpu命令,起了一个250G的磁盘(待补充),一个配置很高的 VM 主机,你可能想能不能起一个配置低一点的VM这样能够减少你的花销.<a href="https://cloud.google.com/tpu/docs/custom-setup">这份文档</a>能够给你一个自定义定制 VM 的 step by step 的教程</li>
+  <li>完成这样的实验教程之后,你会觉得在实验过程中,由于国内网速的原因,使用网页端的ssh速度慢,实在是不痛快,你想优化这个过程,然后你又了解到 gcloud 这个工具,能够使用命令行创建一个VM实例,TPU实例,GS实例,从而能够避免你一次次使用网页创建示例,由于网络的原因使用网页创建实例体验实在是不好,gcloud这个工具的出现你觉得真的是很有用.而且这个工具是可以在本地运行的,恰好你在Ubuntu桌面上而<a href="https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu">这份文档</a>告诉你如何安装gcloud</li>
+  <li>当你按照文档安装完gcloud的时候返现, initialize SDK 的时候,出现了问题.这是由于国内网络环境,无法访问google导致你需要用到 proxy 工具,<a href="https://cloud.google.com/sdk/docs/proxy-settings">这里</a>有你配置 proxy 的文档,在配置的时候,建议使用 http 代理,原因是google的 gsutil 工具,目前只支持 http 爱丽, 你可以在这个<a href="https://github.com/chuyik/some_good_stuff/issues/7">地址</a>找到 将 ss 转 http 的方法,处理完成后,记得重新启动 Chrome 浏览器</li>
   <li>完成上面的配置,你已经可以脱离网页工具了,完全使用bash就可以做完实验了,等等,别忘了,你本次实验是为了体会TPU的性能的,你需要用到TPU的profile工具,来判断,TPU的性能是否被最大化利用,你能够在<a href="https://cloud.google.com/tpu/docs/cloud-tpu-tools#profile_tab">这个profile配置文件</a>找到profile工具中各个选项详细的意义</li>
   <li>当你完成这些之后,你希望在你以后使用tensorflow的过程中,能尽可能的充分利用它的效率,这个<a href="https://www.tensorflow.org/performance/datasets_performance">调优文档</a>能给你带来一些有用的建议</li>
 </ul>
 
-<h1 id="debug工具tensorboard">debug工具TensorBoard</h1>
+<h2 id="debug工具tensorboard">debug工具TensorBoard</h2>
 
 <ul>
   <li>在<a href="https://youtu.be/XcHWLsVmHvk?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN">这个视频中</a>有tensorfboard 可视化的Debug工具,这个<a href="https://github.com/tensorflow/tensorboard/blob/master/tensorboard/plugins/debugger/README.md">文档中</a>有介绍</li>
