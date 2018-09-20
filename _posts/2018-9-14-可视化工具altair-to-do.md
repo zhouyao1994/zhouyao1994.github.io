@@ -1,0 +1,61 @@
+---
+layout: post
+---
+
+# 从Google colab 中衍生出的知识
+
+## 基于描述性语言的可视化工具altair
+
+* [官网网站](https://altair-viz.github.io/getting_started/overview.html),特点基于描述性语言例如:
+
+  ```python
+  alt.Chart(cars).mark_point().encode(
+      x='Horsepower',
+      y='Miles_per_Gallon',
+      color='Origin',
+  ).interactive()
+  ```
+
+* 可交互性的图表,实时调整数据的格式,并导出
+
+* 有一个可以交互的[ Editor ](https://vega.github.io/) 来自华盛顿大小的[交互式可视化实验室](https://idl.cs.washington.edu/),实验室有很多有趣的项目,例如[身体可视化](https://vimeo.com/channels/uwdata/93181322)的 Body Diagrams ,和大名鼎鼎的[D3.js](https://d3js.org/)
+
+## Altair 资料
+
+Altair pycon 2018[演讲介绍](https://www.youtube.com/watch?v=ms29ZPUKxbU),[文档](https://altair-viz.github.io/),[Tutorial](https://github.com/altair-viz/altair-tutorial).
+
+类似的可视化工具 Voyage ,[介绍视频](https://vimeo.com/199084718),[ github 源码](https://github.com/vega/voyager), [文档](https://data-voyager.gitbook.io/voyager/),试用[链接](http://vega.github.io/voyager/)
+
+## Matplotlib 与 Altair
+
+Matplotlib特点:
+
+* Matlab语法
+* 强大的画图工具
+* 有各种渲染的后端
+* 测试的很好,稳定有效的运行了15年
+* API imperative 而且冗长,无法交互,无法web化
+
+API的特点:
+
+* 步骤式的,把x放这里,y放这里表明事情怎么做
+
+## 灵感来自Colab 自带的示例代码
+
+可以使用 Code Snipt 中的 Filter 筛选功能,关键字筛选代码并查看.
+
+* 可视化工具
+  * Altair
+* 显示方式
+  * JavaScript
+* 数据集操作
+  * 从 Google Sheet 中导入,导出数据
+  * 从 Google Drive 中导入导出,挂载到Colab中
+  * 从 Google Storage 中导入,导出数据
+
+
+
+## TensorFlow 这么漂亮的代码是怎么生成的 to-do
+
+* 在使用TensorFlow文档的时候,这种左右布局,左边是列表,右边是目录的布局很好用,于是有了这个疑问
+* 使用bazel工具,详细的[页面如下](https://www.tensorflow.org/community/documentation?hl=zh-cn)
