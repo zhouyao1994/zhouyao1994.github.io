@@ -1,5 +1,5 @@
 ---
-layout
+layout: post
 ---
 
 # Google Art 介绍

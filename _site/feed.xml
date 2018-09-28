@@ -1,10 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-20T09:41:57+08:00</updated><id>http://localhost:4000/</id><title type="html">羽光的博客</title><subtitle>Hi,你好啊.我是周耀,网名:羽光,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">微服务架构初探</title><link href="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2.html" rel="alternate" type="text/html" title="微服务架构初探" /><published>2018-09-19T00:00:00+08:00</published><updated>2018-09-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2</id><content type="html" xml:base="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2.html">&lt;h1 id=&quot;微服务架构&quot;&gt;微服务架构&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-28T11:25:03+08:00</updated><id>http://localhost:4000/</id><title type="html">羽光的博客</title><subtitle>Hi,你好啊.我是周耀,网名:羽光,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">数据结构排序试讲</title><link href="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html" rel="alternate" type="text/html" title="数据结构排序试讲" /><published>2018-09-26T00:00:00+08:00</published><updated>2018-09-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2</id><content type="html" xml:base="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html">&lt;h1 id=&quot;数据结构试讲之排序&quot;&gt;数据结构试讲之排序&lt;/h1&gt;
+
+&lt;h2 id=&quot;插入排序&quot;&gt;插入排序&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;应用:打扑克牌,收试卷,交作业&lt;/li&gt;
+  &lt;li&gt;档案整理工作:图书管理工作:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;排序问题举例&quot;&gt;排序问题举例&lt;/h2&gt;
+
+&lt;p&gt;[2,9,25,16,1,3,100,5],&lt;a href=&quot;http://panthema.net/2013/sound-of-sorting/&quot;&gt;插入排序举例&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;冒泡排序&quot;&gt;冒泡排序&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;冒泡排序&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif&quot;&gt;演示地址&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;时间复杂度分析&lt;script type=&quot;math/tex&quot;&gt;(n-1)+(n-2)+... 3+2+1=(n-1+1)*n/2 = 1/2*n^2&lt;/script&gt; 用计算机的行话就表示O(&lt;script type=&quot;math/tex&quot;&gt;n^2&lt;/script&gt;)&lt;/li&gt;
+  &lt;li&gt;做法很傻,跟人肉手动比较一下运行时间&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;先普及一下CPU主频的知识,3.2G,表示&lt;script type=&quot;math/tex&quot;&gt;3.2*10^9&lt;/script&gt;次时钟频率,假设,有10万个数字需要你排序,n^2 复杂度.10万*10万=100亿= &lt;script type=&quot;math/tex&quot;&gt;10 * 10^9&lt;/script&gt; 保守估计,也就5秒钟,就计算完了.我们人类天生是对大量级的数字不敏感的,我们学计算机的就要克服这种现象,凡事都要从量级的角度去考虑问题,不能仅仅局限在几十,几百几千的量级,要把眼光放到几百万,几千万,几十亿这个量级上思考.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;这个方法,不常用,但是很好理解.而且效果明显.实现起来方便.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;快速排序&quot;&gt;快速排序&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;快速排序&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif?1538104742565&quot;&gt;演示地址&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;跟冒泡排序相比,更不好理解&lt;/li&gt;
+  &lt;li&gt;时间复杂度分析&lt;script type=&quot;math/tex&quot;&gt;\underbrace{n+2*\frac{n}{2}+4*\frac{n}{4}}&lt;/script&gt; 一共有&lt;script type=&quot;math/tex&quot;&gt;log_2^n&lt;/script&gt;个项,所以结果复杂度为:&lt;script type=&quot;math/tex&quot;&gt;n* log_2^n&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;应用,当有全校的档案,10万个数字排序,&lt;script type=&quot;math/tex&quot;&gt;n*log_2^n&lt;/script&gt; =100万=10^6 按CPU 的主频计算不到0.001秒,就计算完成了,保守估计1000倍的效率,如果同样的一个排序任务冒泡需要15分钟,快速排序只需要10天,才能算完.对比一下这计算差距,才能知道震撼&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wiki.jikexueyuan.com/project/easy-learn-algorithm/fast-sort.html&quot;&gt;极客学院参考链接&lt;/a&gt;,维基百科&lt;a href=&quot;https://www.wikiwand.com/en/Quicksort&quot;&gt;参考链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;外部排序算法&quot;&gt;外部排序算法&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;外部排序&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif?1537845762878&quot;&gt;演示地址&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;解决的问题:内存放不下,&lt;/li&gt;
+  &lt;li&gt;时间复杂度&lt;/li&gt;
+  &lt;li&gt;直观的&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif&quot;&gt;演示示例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;数据结构需要锻炼的技能&quot;&gt;数据结构需要锻炼的技能&lt;/h2&gt;
+
+&lt;p&gt;在有限的资源和能力条件下,做出想要的效果.&lt;/p&gt;
+
+&lt;h2 id=&quot;课程的参考链接&quot;&gt;课程的参考链接&lt;/h2&gt;
+
+&lt;p&gt;如果你对排序算法感兴趣,可以去维基百科上查看&lt;a href=&quot;https://www.wikiwand.com/en/Sorting_algorithm&quot;&gt;英文维基百科&lt;/a&gt;,&lt;a href=&quot;https://www.wikiwand.com/en/Sorting_algorithm&quot;&gt;中文排序维基百科&lt;/a&gt;&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">数据结构试讲之排序</summary></entry><entry><title type="html">Google art介绍</title><link href="http://localhost:4000/2018/09/21/Google-Art%E4%BB%8B%E7%BB%8D.html" rel="alternate" type="text/html" title="Google art介绍" /><published>2018-09-21T00:00:00+08:00</published><updated>2018-09-21T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/21/Google%20Art%E4%BB%8B%E7%BB%8D</id><content type="html" xml:base="http://localhost:4000/2018/09/21/Google-Art%E4%BB%8B%E7%BB%8D.html">&lt;h1 id=&quot;google-art-介绍&quot;&gt;Google Art 介绍&lt;/h1&gt;
+
+&lt;p&gt;Google Art 是一个把世界上著名的艺术品,和艺术博物馆,放到网上的网站,包括中国的&lt;a href=&quot;https://artsandculture.google.com/project/cafam&quot;&gt;中央美术院官网&lt;/a&gt;,中央美术院的&lt;a href=&quot;https://artsandculture.google.com/exhibit/iAKilJFvyCPlLg&quot;&gt;设计历史&lt;/a&gt;其中田横五百士这副画,最具有观赏意义,用户在欣赏过程中,会放大图片的局部,让你具体的了解到图片的细节,类似的还有&lt;a href=&quot;https://artsandculture.google.com/story/AQLi183TPs-TJw&quot;&gt;夯歌&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;从史记中记载的故事虚构出的画作&lt;a href=&quot;https://artsandculture.google.com/story/hgLyXy269TwKKQ&quot;&gt;田横五百士&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;艺术家&lt;a href=&quot;https://artsandculture.google.com/exhibit/cgKyaJMWSJu-Lw&quot;&gt;徐悲鸿&lt;/a&gt;用艺术针砭时事&lt;/li&gt;
+  &lt;li&gt;反应农民朴实的快乐,&lt;a href=&quot;https://artsandculture.google.com/story/AQLi183TPs-TJw&quot;&gt;夯歌&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;反应改良派的&lt;a href=&quot;https://artsandculture.google.com/asset/%E6%84%9A%E5%85%AC%E7%A7%BB%E5%B1%B1/8wFAHt3ehNYGZw&quot;&gt;愚翁移山&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;徐悲鸿女朋友&lt;a href=&quot;https://artsandculture.google.com/asset/%E5%AD%99%E5%A4%9A%E6%85%88%E5%83%8F/mAErNTGMiayb1w&quot;&gt;孙多慈&lt;/a&gt;,反应了徐悲鸿的浪漫情怀.没有钱,就画女朋友&lt;a href=&quot;https://artsandculture.google.com/asset/%E8%AF%BB%E4%B9%A6%E7%9A%84%E8%92%8B%E7%A2%A7%E8%96%87/BAHOQGyHvcm0Og&quot;&gt;读书时的蒋碧薇&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;人类的&lt;a href=&quot;https://artsandculture.google.com/category/art-movement&quot;&gt;艺术运动&lt;/a&gt;&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">Google Art 介绍</summary></entry><entry><title type="html">Jupyter notebook介绍</title><link href="http://localhost:4000/2018/09/20/Jupyter-notebook%E4%BB%8B%E7%BB%8D.html" rel="alternate" type="text/html" title="Jupyter notebook介绍" /><published>2018-09-20T00:00:00+08:00</published><updated>2018-09-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/20/Jupyter%20notebook%E4%BB%8B%E7%BB%8D</id><content type="html" xml:base="http://localhost:4000/2018/09/20/Jupyter-notebook%E4%BB%8B%E7%BB%8D.html">&lt;h1 id=&quot;jupyter-notebook-介绍&quot;&gt;Jupyter Notebook 介绍&lt;/h1&gt;
+
+&lt;h2 id=&quot;jupyter-notebook&quot;&gt;Jupyter notebook&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;中文的&lt;a href=&quot;https://v.youku.com/v_show/id_XMzU2NDA3OTMyNA==.html?spm=a2h0k.11417342.soresults.dtitle&quot;&gt; Jupyter notebook &lt;/a&gt;介绍视频资料,包括,安装,运行使用,Jupyter Notebook 支持多种内核例如: Python, R, Lua, Java, C,你可以在这个网站上找到 Notebook 支持的其他内核&lt;/li&gt;
+  &lt;li&gt;Jupyter notebook 的&lt;a href=&quot;&quot;&gt;官网&lt;/a&gt;,快捷键使用,&lt;/li&gt;
+  &lt;li&gt;大量的教程是使用 Notebook 形式编写的.例如一些在线课程:&lt;a href=&quot;&quot;&gt;Tensorflow Model&lt;/a&gt;,&lt;a href=&quot;&quot;&gt;线性代数课程&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;Coursera Deep Learning&lt;/a&gt;.例如:一些&lt;a href=&quot;&quot;&gt;书籍&lt;/a&gt; 除此之外还能看到一个 &lt;a href=&quot;&quot;&gt;Nbview&lt;/a&gt; 的网站,能方便的查看 Notebook ,&lt;/li&gt;
+  &lt;li&gt;Jupyter Notebook 优点:网页端,交互式编程,你可以在pycon 大会上,看到有关 Notebook 的&lt;a href=&quot;&quot;&gt;演讲&lt;/a&gt; 和使用的案例分享&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jupyter-lab&quot;&gt;Jupyter Lab&lt;/h2&gt;
+
+&lt;p&gt;Jupyter Lab 是Jupyter Notebook 的下一代产品,在未来,可能会替代Jupyter Notebook,你可以在&lt;a href=&quot;&quot;&gt;这里&lt;/a&gt;看到Notebook lab 的一些介绍&lt;/p&gt;
+
+&lt;p&gt;官方的网站,有一些介绍,&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">Jupyter Notebook 介绍</summary></entry><entry><title type="html">微服务架构初探 To Do</title><link href="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2-to-do.html" rel="alternate" type="text/html" title="微服务架构初探 To Do" /><published>2018-09-19T00:00:00+08:00</published><updated>2018-09-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2-to-do.html">&lt;h1 id=&quot;微服务架构&quot;&gt;微服务架构&lt;/h1&gt;
 
 &lt;p&gt;微服务的&lt;a href=&quot;https://microservices.io/patterns/microservices.html&quot;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;初期开发的时候,不利于&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">微服务架构</summary></entry><entry><title type="html">Estimator模式初探to Do</title><link href="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2to-do.html" rel="alternate" type="text/html" title="Estimator模式初探to Do" /><published>2018-09-15T00:00:00+08:00</published><updated>2018-09-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2to-do.html">&lt;h1 id=&quot;estimator-模式初探&quot;&gt;Estimator 模式初探&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">微服务架构</summary></entry><entry><title type="html">Estimator模式初探 To Do</title><link href="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2-to-do.html" rel="alternate" type="text/html" title="Estimator模式初探 To Do" /><published>2018-09-15T00:00:00+08:00</published><updated>2018-09-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2-to-do.html">&lt;h1 id=&quot;estimator-模式初探&quot;&gt;Estimator 模式初探&lt;/h1&gt;
 
 &lt;h2 id=&quot;estimator-优点&quot;&gt;Estimator 优点&lt;/h2&gt;
 
@@ -30,7 +109,7 @@
 
 &lt;p&gt;这个步骤,也大致遵循机器学习 sklearn 的流程,深度学习&lt;/p&gt;
 
-&lt;h2 id=&quot;estimator-实验&quot;&gt;Estimator 实验&lt;/h2&gt;</content><author><name>zhouyao</name></author><summary type="html">Estimator 模式初探</summary></entry><entry><title type="html">练习深度学习指南to Do</title><link href="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97to-do.html" rel="alternate" type="text/html" title="练习深度学习指南to Do" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97to-do.html">&lt;h1 id=&quot;练习深度学习指南&quot;&gt;练习深度学习指南&lt;/h1&gt;
+&lt;h2 id=&quot;estimator-实验&quot;&gt;Estimator 实验&lt;/h2&gt;</content><author><name>zhouyao</name></author><summary type="html">Estimator 模式初探</summary></entry><entry><title type="html">练习深度学习指南 To Do</title><link href="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do.html" rel="alternate" type="text/html" title="练习深度学习指南 To Do" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do.html">&lt;h1 id=&quot;练习深度学习指南&quot;&gt;练习深度学习指南&lt;/h1&gt;
 
 &lt;h2 id=&quot;为什么要写这个系列的练习指南&quot;&gt;为什么要写这个系列的练习指南?&lt;/h2&gt;
 
@@ -162,15 +241,19 @@
 &lt;ul&gt;
   &lt;li&gt;Intellij 工具&lt;a href=&quot;https://www.jetbrains.com/&quot;&gt;官方网站&lt;/a&gt;,是一整套IDE开发工具的集合,开发 Java 工具的 IDEA ,开发 Python 的 Pycharm,开发 Android 的 Android Studio 开发 C 语言的 Clion ,进行数据库管理的 DataGrid ,开发 PHP 的PHP Storm 开发 Web 前段的 Web Storm&lt;/li&gt;
   &lt;li&gt;这些工具最大的优点是,可以跨平台,有统一的快捷键,教育免费,有免费的社区版&lt;/li&gt;
+  &lt;li&gt;如果,你有 edu 结尾的教育邮箱,可以在&lt;a href=&quot;&quot;&gt;这个链接&lt;/a&gt; 去申请教育免费的许可证,这样你即使在windows,Linux,Mac 上都可以方便的使用,而不用到处去找破解文件&lt;/li&gt;
   &lt;li&gt;你可以在&lt;a href=&quot;https://www.youtube.com/watch?v=eq3KiAH4IBI&amp;amp;t=764s&quot;&gt;这个视频&lt;/a&gt;链接中找到一个演讲,演示 IDEA 的一些特性,例如:快速重名变量,代码跳转,工具集成.相信如果你完整的看完这个视频之后,你会忍不住下载下来试用一下,强烈建议你能看完这个视频&lt;/li&gt;
   &lt;li&gt;Intellij 的快捷键在各个 C, Python , Java , PhP 中是统一的,你可以在&lt;a href=&quot;https://www.youtube.com/watch?v=p0frVzOQC-U&quot;&gt;这个视频&lt;/a&gt;中得到一些演示,当你学习完这些快捷键之后,会大幅提高你的使用效率,能给你带来深刻的愉悦感&lt;/li&gt;
   &lt;li&gt;当了解了这个系列的工具之后,你需要有针对的了解你特定语言的工具,这个时候,你需要有针对的在这个列表中&lt;a href=&quot;https://www.youtube.com/user/JetBrainsTV/playlists&quot;&gt;查看使用技巧&lt;/a&gt;,例如 Pycharm 工具的使用技巧,你可以在&lt;a href=&quot;https://www.youtube.com/watch?v=BPC-bGdBSM8&amp;amp;list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&quot;&gt;这个视频列表&lt;/a&gt;中找到&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;jupyter-notebook&quot;&gt;Jupyter notebook&lt;/h2&gt;
+&lt;h2 id=&quot;详细的索引&quot;&gt;详细的索引&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;中文的&lt;a href=&quot;https://v.youku.com/v_show/id_XMzU2NDA3OTMyNA==.html?spm=a2h0k.11417342.soresults.dtitle&quot;&gt; Jupyter notebook &lt;/a&gt;介绍视频资料,包括,安装,运行使用&lt;/li&gt;
+  &lt;li&gt;如果你觉得 Git 工具很难用,你可以在这个&lt;a href=&quot;&quot;&gt;视频&lt;/a&gt;中找到,利用 Pycharm 方便的进行 Git 使用&lt;/li&gt;
+  &lt;li&gt;如果你认为管理多个数据库,非常麻烦你可以在这个&lt;a href=&quot;&quot;&gt;视频&lt;/a&gt; 中找到方便的方法&lt;/li&gt;
+  &lt;li&gt;如果你认为 Debug 是一件麻烦的事情,你可以在这个&lt;a href=&quot;&quot;&gt;视频&lt;/a&gt; 中找到方法&lt;/li&gt;
+  &lt;li&gt;如果你认为&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">[TOC]</summary></entry><entry><title type="html">Gcp高速访问国外</title><link href="http://localhost:4000/2018/09/12/GCP%E9%AB%98%E9%80%9F%E8%AE%BF%E9%97%AE%E5%9B%BD%E5%A4%96.html" rel="alternate" type="text/html" title="Gcp高速访问国外" /><published>2018-09-12T00:00:00+08:00</published><updated>2018-09-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/12/GCP%E9%AB%98%E9%80%9F%E8%AE%BF%E9%97%AE%E5%9B%BD%E5%A4%96</id><content type="html" xml:base="http://localhost:4000/2018/09/12/GCP%E9%AB%98%E9%80%9F%E8%AE%BF%E9%97%AE%E5%9B%BD%E5%A4%96.html">&lt;h1 id=&quot;使用gcp高速访问google&quot;&gt;使用GCP高速访问Google&lt;/h1&gt;
 
 &lt;h2 id=&quot;gcp台湾高速访问&quot;&gt;GCP+台湾=高速访问&lt;/h2&gt;
@@ -196,150 +279,4 @@
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcloud config &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;proxy/type http
 gcloud config &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;proxy/address 127.0.0.1
 gcloud config &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;proxy/port 8188
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zhouyao</name></author><summary type="html">使用GCP高速访问Google</summary></entry><entry><title type="html">优秀的markdown编辑器typora</title><link href="http://localhost:4000/2018/09/11/%E4%BC%98%E7%A7%80%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8typora.html" rel="alternate" type="text/html" title="优秀的markdown编辑器typora" /><published>2018-09-11T00:00:00+08:00</published><updated>2018-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/11/%E4%BC%98%E7%A7%80%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8typora</id><content type="html" xml:base="http://localhost:4000/2018/09/11/%E4%BC%98%E7%A7%80%E7%9A%84markdown%E7%BC%96%E8%BE%91%E5%99%A8typora.html">&lt;h1 id=&quot;优秀的markdown编辑器&quot;&gt;优秀的Markdown编辑器&lt;/h1&gt;
-
-&lt;h2 id=&quot;typora-介绍&quot;&gt;Typora 介绍&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Typora编辑器,是一个跨平台,所见即所得的md编辑器,最好的演示,在&lt;a href=&quot;https://typora.io/&quot;&gt;Typora的官网&lt;/a&gt;, Typora独特的地方是,它能支持例如:公式,流程图,甘特图,表格等的插入完全用Markdown语法表示.你可以在&lt;a href=&quot;https://support.typora.io/&quot;&gt;Support&lt;/a&gt;页面找到一些例如:Quick Start,How To 等链接很有用&lt;/li&gt;
-  &lt;li&gt;你在这里能够找到别人&lt;a href=&quot;https://youtu.be/nhgw2ceclVc?t=157&quot;&gt;录制的视频&lt;/a&gt;,向你展示Typora的功能,如果你觉得很有意思,想尝试以下Markdown在这个&lt;a href=&quot;https://support.typora.io/Markdown-Reference/&quot;&gt;网站&lt;/a&gt;可以查到Markdown的语法规则,另外,本站的几乎所有的文章也是使用Markdown语法用Typora编写的&lt;/li&gt;
-  &lt;li&gt;更有趣的是,Typora跟yalm语法结合的很好,我在用jekii部署博客的时候,往往需要在每篇博客头部,声明下面的这个部分,而Typora能够很优雅的帮助生成这个部分的代码&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;typora-支持-latex&quot;&gt;Typora 支持 LaTeX&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;使用&lt;code class=&quot;highlighter-rouge&quot;&gt;$$+enter&lt;/code&gt;快捷键就可以召唤出latex编辑器出来,而且会有预览r不知道行内怎么处理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;w_{1}+w_{2}=x&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;这个&lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Mathematics&quot;&gt;latex wikibook&lt;/a&gt;网站,可以查看到许多公式的示例,相信很多时候,也许直接对照着使用就可以&lt;/li&gt;
-  &lt;li&gt;在使用Typora如果你想使用内联公式,例如:使用&lt;code class=&quot;highlighter-rouge&quot;&gt;$x+x_2=y$&lt;/code&gt;可以渲染出$x+x_2=y$效果,你需要使用inline latex特性,这个特性默认关闭,需要打开设置,你能在&lt;a href=&quot;https://support.typora.io/Markdown-Reference/#inline-math&quot;&gt;这里&lt;/a&gt;找到开启这个特性的参考,设置好之后,你就可以使用&lt;code class=&quot;highlighter-rouge&quot;&gt;${code}$&lt;/code&gt;包装使用内联公式&lt;/li&gt;
-  &lt;li&gt;当用Typora编写公式的时候,gitpage也许不能很好的支持渲染,你可以在head.html中添加mathjet的js代码,具体的你可以参考stackoverflow中的有关&lt;a href=&quot;https://stackoverflow.com/questions/26275645/how-to-supported-latex-in-github-pages/46765337#46765337&quot;&gt;gitpage支持latex的建议&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;一些写作规范&quot;&gt;一些写作规范&lt;/h2&gt;
-
-&lt;p&gt;原文地址：&lt;a href=&quot;https://github.com/ruanyf/document-style-guide&quot;&gt;→阮一峰中文写作规范&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;以前从来去想一篇技术文章要怎么架构，总是随自己想到什么写什么，然后看到了阮一峰老师的总结，就把它改成了思维导图，以便记忆查询。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1727565-a07e07f5691f0e14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;中文技术文档写作规范&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://opohu5hxr.bkt.clouddn.com/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83-20170427.png&quot;&gt;原图传送门&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;生成表格&quot;&gt;生成表格&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;你的技能&lt;/th&gt;
-      &lt;th&gt;熟练度&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Python&lt;/td&gt;
-      &lt;td&gt;高&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Deeplearing&lt;/td&gt;
-      &lt;td&gt;中&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Java&lt;/td&gt;
-      &lt;td&gt;中&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Mvc&lt;/td&gt;
-      &lt;td&gt;高&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
-e=&amp;gt;end: End|future:&amp;gt;http://www.google.com
-op1=&amp;gt;operation: My Operation|past
-op2=&amp;gt;operation: Stuff|current
-sub1=&amp;gt;subroutine: My Subroutine
-cond=&amp;gt;condition: Yes 
-or No?|approved:&amp;gt;http://www.google.com
-c2=&amp;gt;condition: Good idea
-io=&amp;gt;inputoutput: catch something...|future
-
-st(right)-&amp;gt;op1(right)-&amp;gt;cond
-cond(yes, right)-&amp;gt;c2
-cond(no)-&amp;gt;sub1(left)-&amp;gt;op1
-c2(yes)-&amp;gt;io-&amp;gt;e
-c2(no)-&amp;gt;op2-&amp;gt;e
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;begein=&amp;gt;start: 开始 :&amp;gt;http:www.baidu.com
-op=&amp;gt;operation: 操作 
-over=&amp;gt;end: 结束
-noover=&amp;gt;operation: 没结束
-con=&amp;gt;condition: 是否满足
-
-begein(right)-&amp;gt;op(right)-&amp;gt;con
-con(yes,bottom)-&amp;gt;over
-con(no,right)-&amp;gt;noover(right)-&amp;gt;op
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>zhouyao</name></author><summary type="html">优秀的Markdown编辑器</summary></entry><entry><title type="html">Tensorflow tpu 实战</title><link href="http://localhost:4000/2018/09/11/tensorflow-TPU-%E5%AE%9E%E6%88%98.html" rel="alternate" type="text/html" title="Tensorflow tpu 实战" /><published>2018-09-11T00:00:00+08:00</published><updated>2018-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/11/tensorflow%20TPU%20%E5%AE%9E%E6%88%98</id><content type="html" xml:base="http://localhost:4000/2018/09/11/tensorflow-TPU-%E5%AE%9E%E6%88%98.html">&lt;h1 id=&quot;tensorflow-tpu-实战&quot;&gt;TensorFlow TPU 实战&lt;/h1&gt;
-
-&lt;h2 id=&quot;准备步骤&quot;&gt;准备步骤&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;也许你在这篇博客了解&lt;a href=&quot;https://www.youtube.com/watch?v=mWl45NkFBOc&amp;amp;list=PLOU2XLYxmsIKGc_NBoIhTn2Qhraji53cv&quot;&gt;深度学习的应用&lt;/a&gt;,之后你从这个&lt;a href=&quot;https://www.youtube.com/watch?v=zEOtG-ChmZE&quot;&gt;视频&lt;/a&gt;,中了解到了TPU,被它强大的性能所吸引.在&lt;a href=&quot;(https://blog.riseml.com/benchmarking-googles-new-tpuv2-121c03b71384)&quot;&gt;这篇博客&lt;/a&gt;里对TPU和英伟达的GPU性价比做了对比得出的结论是:通NVIDIA的GPU相比同样的计算任务TPU只需要你花费一半的费用,详细的&lt;a href=&quot;https://blog.riseml.com/comparing-google-tpuv2-against-nvidia-v100-on-resnet-50-c2bbb6a51e5e&quot;&gt;测试过程&lt;/a&gt;你可以在这篇文章中找到,经过这番了解,你对TPU产生了兴趣,想要真正的去尝试一下使用它&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;首先,你需要能保证网络通畅,能够在网页访问google cloud网站,并且有一个google账户,同时开通GCP (google compute platform),如果你在注册的时候能够绑定一张信用卡,就能获得100美元的免费代金券,有效期一年,用来试用用google的云计算工具,你能够在&lt;a href=&quot;&quot;&gt;这篇文章&lt;/a&gt;找到详细的教程&lt;/li&gt;
-  &lt;li&gt;在google的&lt;a href=&quot;&quot;&gt;这篇文档&lt;/a&gt;中你能找到step by step 试用tpu的步骤,这份文档,使用的是MNIST数据集,用来进行手写体识别,当你按流程走完,之后,你会发现一个有趣的现象是:TPU运算的过程是:首先,从storage bulket(存储通,类似s3服务)中读取数据,之后,再通过cpu运算送入TPU运算.TPU并不能从你的主机里面读取你的数据,&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;调优步骤&quot;&gt;调优步骤&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;在tensorflow dev summit 的&lt;a href=&quot;https://youtu.be/SxOsJPaxHME?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&quot;&gt;一份YouTube演讲中&lt;/a&gt; 有提到 让TPU跑的更快,这是由于TPU性能太强了,以致于发现绝大多数TPU出现性能慢的时候,都是由数据输入的速率跟不上TPU的计算能力造成的.通过一些简单的参数设置,能让你的TPU处理图片的速度从最初的150张image/s 到后来的600image/s再后来的1350image/s,最后速度能够达到2300image/s性能提升了15倍,这意味着,以前你需要使用7个小时才能训练完的数据,现在你半个小时就可以完成了&lt;/li&gt;
-  &lt;li&gt;你应该觉得很震撼.于是你在这份演讲附带的链接中,找到了这次profile的&lt;a href=&quot;http://download.tensorflow.org/dev_summit_2018/cloud_tpu_traces.tgz&quot;&gt;性能文件&lt;/a&gt;在解压缩之后,你就可以用&lt;code class=&quot;highlighter-rouge&quot;&gt;tensorbord --logdir 1-simple&lt;/code&gt;命令打开这份文件中的案例,可视化以下运行的过程.你可以好奇的左边点点,右边点点,看看这个工具都有哪些选项.如果你不知道怎么使用tensorboard,你可以在&lt;a href=&quot;https://www.tensorflow.org/guide/summaries_and_tensorboard&quot;&gt;这个文档中&lt;/a&gt;找到教程,在&lt;a href=&quot;https://www.youtube.com/watch?v=eBbEDRsCmv4&quot;&gt;这个视频&lt;/a&gt;中你能得到直观的了解,&lt;a href=&quot;https://www.youtube.com/watch?v=XcHWLsVmHvk&amp;amp;list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&amp;amp;index=12&quot;&gt;这个视频&lt;/a&gt;让你得到更高级的了解&lt;/li&gt;
-  &lt;li&gt;如果你按照上面的MNIST教程走过一篇,当你使用ctpu命令运行的时候,你会观察到,ctpu命令,起了一个250G的磁盘(待补充),一个配置很高的 VM 主机,你可能想能不能起一个配置低一点的VM这样能够减少你的花销.&lt;a href=&quot;https://cloud.google.com/tpu/docs/custom-setup&quot;&gt;这份文档&lt;/a&gt;能够给你一个自定义定制 VM 的 step by step 的教程&lt;/li&gt;
-  &lt;li&gt;完成这样的实验教程之后,你会觉得在实验过程中,由于国内网速的原因,使用网页端的ssh速度慢,实在是不痛快,你想优化这个过程,然后你又了解到 gcloud 这个工具,能够使用命令行创建一个VM实例,TPU实例,GS实例,从而能够避免你一次次使用网页创建示例,由于网络的原因使用网页创建实例体验实在是不好,gcloud这个工具的出现你觉得真的是很有用.而且这个工具是可以在本地运行的,恰好你在Ubuntu桌面上而&lt;a href=&quot;https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu&quot;&gt;这份文档&lt;/a&gt;告诉你如何安装gcloud&lt;/li&gt;
-  &lt;li&gt;当你按照文档安装完gcloud的时候返现, initialize SDK 的时候,出现了问题.这是由于国内网络环境,无法访问google导致你需要用到 proxy 工具,&lt;a href=&quot;https://cloud.google.com/sdk/docs/proxy-settings&quot;&gt;这里&lt;/a&gt;有你配置 proxy 的文档,在配置的时候,建议使用 http 代理,原因是google的 gsutil 工具,目前只支持 http 爱丽, 你可以在这个&lt;a href=&quot;https://github.com/chuyik/some_good_stuff/issues/7&quot;&gt;地址&lt;/a&gt;找到 将 ss 转 http 的方法,处理完成后,记得重新启动 Chrome 浏览器&lt;/li&gt;
-  &lt;li&gt;完成上面的配置,你已经可以脱离网页工具了,完全使用bash就可以做完实验了,等等,别忘了,你本次实验是为了体会TPU的性能的,你需要用到TPU的profile工具,来判断,TPU的性能是否被最大化利用,你能够在&lt;a href=&quot;https://cloud.google.com/tpu/docs/cloud-tpu-tools#profile_tab&quot;&gt;这个profile配置文件&lt;/a&gt;找到profile工具中各个选项详细的意义&lt;/li&gt;
-  &lt;li&gt;当你完成这些之后,你希望在你以后使用tensorflow的过程中,能尽可能的充分利用它的效率,这个&lt;a href=&quot;https://www.tensorflow.org/performance/datasets_performance&quot;&gt;调优文档&lt;/a&gt;能给你带来一些有用的建议&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;debug工具tensorboard&quot;&gt;debug工具TensorBoard&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;在&lt;a href=&quot;https://youtu.be/XcHWLsVmHvk?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&quot;&gt;这个视频中&lt;/a&gt;有tensorfboard 可视化的Debug工具,这个&lt;a href=&quot;https://github.com/tensorflow/tensorboard/blob/master/tensorboard/plugins/debugger/README.md&quot;&gt;文档中&lt;/a&gt;有介绍&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">TensorFlow TPU 实战</summary></entry><entry><title type="html">深度学习的一些应用</title><link href="http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8.html" rel="alternate" type="text/html" title="深度学习的一些应用" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2018/09/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8.html">&lt;h1 id=&quot;深度学习有趣的应用&quot;&gt;深度学习有趣的应用&lt;/h1&gt;
-
-&lt;h2 id=&quot;短材料&quot;&gt;短材料&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;用深度学习帮助辨别农业&lt;a href=&quot;https://www.youtube.com/watch?v=NlpS-DhayQA&amp;amp;index=3&amp;amp;list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&quot;&gt;植物病虫害&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;格林深瞳的&lt;a href=&quot;https://youtu.be/xhp47v5OBXQ&quot;&gt;视觉应用&lt;/a&gt;包括:车辆型号识别,人脸视频,运动轨迹检测,人体检测识别,运动密度识别,第一次看的时候,特别震撼.特别的,这而且是一家国内的公司&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;深度学习googletensorflow在2017年做的官方宣传,里面有深度学习&lt;a href=&quot;https://www.youtube.com/watch?v=mWl45NkFBOc&amp;amp;list=PLOU2XLYxmsIKGc_NBoIhTn2Qhraji53cv&quot;&gt;大量的应用&lt;/a&gt;实例&lt;/li&gt;
-  &lt;li&gt;YOLO物体识别,在&lt;a href=&quot;https://youtu.be/VOC3huqHrss&quot;&gt;电影中的应用&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;演讲和讲座&quot;&gt;演讲和讲座&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;YOLO发明者介绍物体识别的发展流程&lt;a href=&quot;https://www.ted.com/talks/joseph_redmon_how_a_computer_learns_to_recognize_objects_instantly&quot;&gt;ted演讲&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;可口可乐公司用摄像头识别瓶盖中的&lt;a href=&quot;https://www.youtube.com/watch?v=WIV6oUc2JOg&amp;amp;index=20&amp;amp;list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN&quot;&gt;兑奖码&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;给&lt;a href=&quot;https://youtu.be/0FW99AQmMc8&quot;&gt;视频配音&lt;/a&gt;,案例中,使用的是用棍子敲打桌面,和草地&lt;/li&gt;
-  &lt;li&gt;语音&lt;a href=&quot;http://www.dtic.upf.edu/~mblaauw/NPSS/&quot;&gt;合成音乐&lt;/a&gt;,有时候能让你分辨不出来,竟然是合成的&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/SCE-QeDfXtA&quot;&gt;deepdream&lt;/a&gt;一种让你迷失到起鸡皮疙瘩的有趣视频&lt;/li&gt;
-  &lt;li&gt;你可以在台湾大学的这个&lt;a href=&quot;https://www.youtube.com/watch?v=X-Q72NiI3SQ&amp;amp;t=2s&quot;&gt;演讲视频&lt;/a&gt;(1:24:19)中找到一些应用&lt;/li&gt;
-  &lt;li&gt;总结的深度学习的30个&lt;a href=&quot;http://www.yaronhadad.com/deep-learning-most-amazing-applications/#wild&quot;&gt;应用案例&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;这个视频,你能了解深度&lt;a href=&quot;https://www.youtube.com/watch?v=zEOtG-ChmZE&quot;&gt;学习的硬件TPU&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">深度学习有趣的应用</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zhouyao</name></author><summary type="html">使用GCP高速访问Google</summary></entry></feed>
