@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-28T11:25:03+08:00</updated><id>http://localhost:4000/</id><title type="html">羽光的博客</title><subtitle>Hi,你好啊.我是周耀,网名:羽光,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">数据结构排序试讲</title><link href="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html" rel="alternate" type="text/html" title="数据结构排序试讲" /><published>2018-09-26T00:00:00+08:00</published><updated>2018-09-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2</id><content type="html" xml:base="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html">&lt;h1 id=&quot;数据结构试讲之排序&quot;&gt;数据结构试讲之排序&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-07T12:52:30+08:00</updated><id>http://localhost:4000/</id><title type="html">羽光的博客</title><subtitle>Hi,你好啊.我是周耀,网名:羽光,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">Push已存在的代码到github</title><link href="http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github.html" rel="alternate" type="text/html" title="Push已存在的代码到github" /><published>2018-10-07T00:00:00+08:00</published><updated>2018-10-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github</id><content type="html" xml:base="http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github.html">&lt;h1 id=&quot;push-已存在的代码到github中&quot;&gt;Push 已存在的代码到Github中&lt;/h1&gt;
+
+&lt;h2 id=&quot;方案一使用-bash&quot;&gt;方案一:使用 bash&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote add origin https://github.com/zhouyao1994/sqlite-sourcecode-read.git
+git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;方案二使用pycharm-ide-git-工具&quot;&gt;方案二:使用Pycharm IDE git 工具&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;设置remote origin&lt;/li&gt;
+  &lt;li&gt;push代码&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">Push 已存在的代码到Github中</summary></entry><entry><title type="html">Sql练习搜集资料</title><link href="http://localhost:4000/2018/10/04/SQL%E7%BB%83%E4%B9%A0%E6%90%9C%E9%9B%86%E8%B5%84%E6%96%99.html" rel="alternate" type="text/html" title="Sql练习搜集资料" /><published>2018-10-04T00:00:00+08:00</published><updated>2018-10-04T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/04/SQL%E7%BB%83%E4%B9%A0%E6%90%9C%E9%9B%86%E8%B5%84%E6%96%99</id><content type="html" xml:base="http://localhost:4000/2018/10/04/SQL%E7%BB%83%E4%B9%A0%E6%90%9C%E9%9B%86%E8%B5%84%E6%96%99.html">&lt;h1 id=&quot;sql练习工具&quot;&gt;SQL练习工具&lt;/h1&gt;
+
+&lt;h2 id=&quot;为什么要练习sql语句&quot;&gt;为什么要练习SQL语句&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.pluralsight.com/blog/software-development/5-reasons-to-learn-sql&quot;&gt;有着超过40年的标准历史&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;数据分析有五个阶段分别是,
+    &lt;ul&gt;
+      &lt;li&gt;step 1 - Individual contibutor&lt;/li&gt;
+      &lt;li&gt;step 2 - Delegation&lt;/li&gt;
+      &lt;li&gt;step 3 - Digitization&lt;/li&gt;
+      &lt;li&gt;step 4 - Big Data and Analytics&lt;/li&gt;
+      &lt;li&gt;stop 5 - Machine learning&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;里面提到的核心观点,机器学习,或者说,深度学习,是用来放大人类的经验的,而不是替代人类经验.如果跳过第一步,意味着商业模式还不够完善,跳过第二部,意味着当核心人员离职,知识会被阻断,跳过第三部意味着没有自动化,跳过第四部,意味着数据很脏,不利于进行机器学习分析,&lt;/li&gt;
+  &lt;li&gt;其中,从第三步到第四步,需要完整完善熟练的SQL进行数据处理,顺带进行数据清洗,不论是M,G,T都有对应的SQL工具来辅助进行数据处理&lt;/li&gt;
+  &lt;li&gt;第五步,才是进入真正的机器学习,所以,不论在哪里,熟练的SQL语句一定是必要的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;练习sql语句优秀的网站&quot;&gt;练习SQL语句优秀的网站&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackerrank.com/&quot;&gt;hackerrank&lt;/a&gt;里面有基础的SQL语句练习,颜值高&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3resource.com/sql-exercises/&quot;&gt;w3resouce&lt;/a&gt;练习语句比较多,但是界面颜值较低,编辑器没有语法高亮&lt;/li&gt;
+  &lt;li&gt;SQL&lt;a href=&quot;https://github.com/XD-DENG/SQL-exercise&quot;&gt;练习的github&lt;/a&gt;,和&lt;a href=&quot;https://github.com/wangruinju/SQL_Resources&quot;&gt;这个&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;商业网站展示的,一些&lt;a href=&quot;https://community.modeanalytics.com/sql/tutorial/sql-string-functions-for-cleaning/&quot;&gt;SQL高级用法实例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SQL可以做字符串拼接处理,数字计算&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SQL 中null 不能用=比较,只能用is来比较,参考&lt;a href=&quot;https://stackoverflow.com/questions/25641720/difference-between-and-is-in-sql-server&quot;&gt;链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">SQL练习工具</summary></entry><entry><title type="html">数据结构排序试讲</title><link href="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html" rel="alternate" type="text/html" title="数据结构排序试讲" /><published>2018-09-26T00:00:00+08:00</published><updated>2018-09-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2</id><content type="html" xml:base="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html">&lt;h1 id=&quot;数据结构试讲之排序&quot;&gt;数据结构试讲之排序&lt;/h1&gt;
 
 &lt;h2 id=&quot;插入排序&quot;&gt;插入排序&lt;/h2&gt;
 
@@ -83,7 +129,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;初期开发的时候,不利于&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">微服务架构</summary></entry><entry><title type="html">Estimator模式初探 To Do</title><link href="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2-to-do.html" rel="alternate" type="text/html" title="Estimator模式初探 To Do" /><published>2018-09-15T00:00:00+08:00</published><updated>2018-09-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2-to-do.html">&lt;h1 id=&quot;estimator-模式初探&quot;&gt;Estimator 模式初探&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">微服务架构</summary></entry><entry><title type="html">Estimator模式初探</title><link href="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2.html" rel="alternate" type="text/html" title="Estimator模式初探" /><published>2018-09-15T00:00:00+08:00</published><updated>2018-09-15T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2</id><content type="html" xml:base="http://localhost:4000/2018/09/15/Estimator%E6%A8%A1%E5%BC%8F%E5%88%9D%E6%8E%A2.html">&lt;h1 id=&quot;estimator-模式初探&quot;&gt;Estimator 模式初探&lt;/h1&gt;
 
 &lt;h2 id=&quot;estimator-优点&quot;&gt;Estimator 优点&lt;/h2&gt;
 
@@ -109,7 +155,11 @@
 
 &lt;p&gt;这个步骤,也大致遵循机器学习 sklearn 的流程,深度学习&lt;/p&gt;
 
-&lt;h2 id=&quot;estimator-实验&quot;&gt;Estimator 实验&lt;/h2&gt;</content><author><name>zhouyao</name></author><summary type="html">Estimator 模式初探</summary></entry><entry><title type="html">练习深度学习指南 To Do</title><link href="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do.html" rel="alternate" type="text/html" title="练习深度学习指南 To Do" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do.html">&lt;h1 id=&quot;练习深度学习指南&quot;&gt;练习深度学习指南&lt;/h1&gt;
+&lt;h2 id=&quot;estimator-实验&quot;&gt;Estimator 实验&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在 Cousera 中的课程中提供了练习文件&lt;a href=&quot;https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive/03_tensorflow/b_estimator.ipynb&quot;&gt;Github trainning-data-analyst&lt;/a&gt;提供了很好范例&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">Estimator 模式初探</summary></entry><entry><title type="html">练习深度学习指南 To Do</title><link href="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do.html" rel="alternate" type="text/html" title="练习深度学习指南 To Do" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E7%BB%83%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97-to-do.html">&lt;h1 id=&quot;练习深度学习指南&quot;&gt;练习深度学习指南&lt;/h1&gt;
 
 &lt;h2 id=&quot;为什么要写这个系列的练习指南&quot;&gt;为什么要写这个系列的练习指南?&lt;/h2&gt;
 
@@ -132,7 +182,7 @@
   &lt;li&gt;10-底层 API 练习&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;练习文件,全部可以在colab上运行,也可下载到本地,用 Jupyter Notebook 运行&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">练习深度学习指南</summary></entry><entry><title type="html">可视化工具altair To Do</title><link href="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7altair-to-do.html" rel="alternate" type="text/html" title="可视化工具altair To Do" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7altair-to-do</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7altair-to-do.html">&lt;h1 id=&quot;从google-colab-中衍生出的知识&quot;&gt;从Google colab 中衍生出的知识&lt;/h1&gt;
+&lt;p&gt;练习文件,全部可以在colab上运行,也可下载到本地,用 Jupyter Notebook 运行&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">练习深度学习指南</summary></entry><entry><title type="html">可视化工具altair</title><link href="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7Altair.html" rel="alternate" type="text/html" title="可视化工具altair" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7Altair</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7Altair.html">&lt;h1 id=&quot;从google-colab-中衍生出的知识&quot;&gt;从Google colab 中衍生出的知识&lt;/h1&gt;
 
 &lt;h2 id=&quot;基于描述性语言的可视化工具altair&quot;&gt;基于描述性语言的可视化工具altair&lt;/h2&gt;
 
@@ -201,13 +251,6 @@
       &lt;li&gt;从 Google Storage 中导入,导出数据&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tensorflow-这么漂亮的代码是怎么生成的-to-do&quot;&gt;TensorFlow 这么漂亮的代码是怎么生成的 to-do&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;在使用TensorFlow文档的时候,这种左右布局,左边是列表,右边是目录的布局很好用,于是有了这个疑问&lt;/li&gt;
-  &lt;li&gt;使用bazel工具,详细的&lt;a href=&quot;https://www.tensorflow.org/community/documentation?hl=zh-cn&quot;&gt;页面如下&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">从Google colab 中衍生出的知识</summary></entry><entry><title type="html">Awesom Courses</title><link href="http://localhost:4000/2018/09/13/Awesom-courses.html" rel="alternate" type="text/html" title="Awesom Courses" /><published>2018-09-13T00:00:00+08:00</published><updated>2018-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/13/Awesom-courses</id><content type="html" xml:base="http://localhost:4000/2018/09/13/Awesom-courses.html">&lt;h1 id=&quot;推荐的有用的计算机课程&quot;&gt;推荐的有用的计算机课程&lt;/h1&gt;
 
 &lt;h2 id=&quot;我自己学过的&quot;&gt;我自己学过的&lt;/h2&gt;
@@ -232,51 +275,4 @@
   &lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-create-api.html&quot;&gt;Creating an API Endpoint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;函数名表示API.基本描述,表示注释&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">推荐的有用的计算机课程</summary></entry><entry><title type="html">Pycharm工具指南</title><link href="http://localhost:4000/2018/09/12/Pycharm%E5%B7%A5%E5%85%B7%E6%8C%87%E5%8D%97.html" rel="alternate" type="text/html" title="Pycharm工具指南" /><published>2018-09-12T00:00:00+08:00</published><updated>2018-09-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/12/Pycharm%E5%B7%A5%E5%85%B7%E6%8C%87%E5%8D%97</id><content type="html" xml:base="http://localhost:4000/2018/09/12/Pycharm%E5%B7%A5%E5%85%B7%E6%8C%87%E5%8D%97.html">&lt;p&gt;[TOC]&lt;/p&gt;
-
-&lt;h1 id=&quot;intellij-工具介绍含ideapycharmclion&quot;&gt;IntelliJ 工具介绍(含Idea,Pycharm,Clion)&lt;/h1&gt;
-
-&lt;h2 id=&quot;intellij工具介绍&quot;&gt;Intellij工具介绍&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Intellij 工具&lt;a href=&quot;https://www.jetbrains.com/&quot;&gt;官方网站&lt;/a&gt;,是一整套IDE开发工具的集合,开发 Java 工具的 IDEA ,开发 Python 的 Pycharm,开发 Android 的 Android Studio 开发 C 语言的 Clion ,进行数据库管理的 DataGrid ,开发 PHP 的PHP Storm 开发 Web 前段的 Web Storm&lt;/li&gt;
-  &lt;li&gt;这些工具最大的优点是,可以跨平台,有统一的快捷键,教育免费,有免费的社区版&lt;/li&gt;
-  &lt;li&gt;如果,你有 edu 结尾的教育邮箱,可以在&lt;a href=&quot;&quot;&gt;这个链接&lt;/a&gt; 去申请教育免费的许可证,这样你即使在windows,Linux,Mac 上都可以方便的使用,而不用到处去找破解文件&lt;/li&gt;
-  &lt;li&gt;你可以在&lt;a href=&quot;https://www.youtube.com/watch?v=eq3KiAH4IBI&amp;amp;t=764s&quot;&gt;这个视频&lt;/a&gt;链接中找到一个演讲,演示 IDEA 的一些特性,例如:快速重名变量,代码跳转,工具集成.相信如果你完整的看完这个视频之后,你会忍不住下载下来试用一下,强烈建议你能看完这个视频&lt;/li&gt;
-  &lt;li&gt;Intellij 的快捷键在各个 C, Python , Java , PhP 中是统一的,你可以在&lt;a href=&quot;https://www.youtube.com/watch?v=p0frVzOQC-U&quot;&gt;这个视频&lt;/a&gt;中得到一些演示,当你学习完这些快捷键之后,会大幅提高你的使用效率,能给你带来深刻的愉悦感&lt;/li&gt;
-  &lt;li&gt;当了解了这个系列的工具之后,你需要有针对的了解你特定语言的工具,这个时候,你需要有针对的在这个列表中&lt;a href=&quot;https://www.youtube.com/user/JetBrainsTV/playlists&quot;&gt;查看使用技巧&lt;/a&gt;,例如 Pycharm 工具的使用技巧,你可以在&lt;a href=&quot;https://www.youtube.com/watch?v=BPC-bGdBSM8&amp;amp;list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP&quot;&gt;这个视频列表&lt;/a&gt;中找到&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;详细的索引&quot;&gt;详细的索引&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;如果你觉得 Git 工具很难用,你可以在这个&lt;a href=&quot;&quot;&gt;视频&lt;/a&gt;中找到,利用 Pycharm 方便的进行 Git 使用&lt;/li&gt;
-  &lt;li&gt;如果你认为管理多个数据库,非常麻烦你可以在这个&lt;a href=&quot;&quot;&gt;视频&lt;/a&gt; 中找到方便的方法&lt;/li&gt;
-  &lt;li&gt;如果你认为 Debug 是一件麻烦的事情,你可以在这个&lt;a href=&quot;&quot;&gt;视频&lt;/a&gt; 中找到方法&lt;/li&gt;
-  &lt;li&gt;如果你认为&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">[TOC]</summary></entry><entry><title type="html">Gcp高速访问国外</title><link href="http://localhost:4000/2018/09/12/GCP%E9%AB%98%E9%80%9F%E8%AE%BF%E9%97%AE%E5%9B%BD%E5%A4%96.html" rel="alternate" type="text/html" title="Gcp高速访问国外" /><published>2018-09-12T00:00:00+08:00</published><updated>2018-09-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/12/GCP%E9%AB%98%E9%80%9F%E8%AE%BF%E9%97%AE%E5%9B%BD%E5%A4%96</id><content type="html" xml:base="http://localhost:4000/2018/09/12/GCP%E9%AB%98%E9%80%9F%E8%AE%BF%E9%97%AE%E5%9B%BD%E5%A4%96.html">&lt;h1 id=&quot;使用gcp高速访问google&quot;&gt;使用GCP高速访问Google&lt;/h1&gt;
-
-&lt;h2 id=&quot;gcp台湾高速访问&quot;&gt;GCP+台湾=高速访问&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;使用 GCP 创建快速访问的节点&lt;a href=&quot;https://suiyuanjian.com/124.html&quot;&gt;方法&lt;/a&gt;,需要有一张信用卡,和访问 Google 的方法&lt;/li&gt;
-  &lt;li&gt;BBR 是 Google 的一种拥塞算法, 能够使得网络利用最大化, VM 开启的步骤,你可以&lt;a href=&quot;https://xiaozhou.net/enable-bbr-for-vps-2017-06-10.html&quot;&gt;在这里&lt;/a&gt;找到&lt;/li&gt;
-  &lt;li&gt;在实际的操作中,你可以把配置和安装脚本,放入 Storage bulket 中,方便后续使用&lt;/li&gt;
-  &lt;li&gt;建议操作完成时候,生成一个快照,以后使用就可以直接从快照中生成磁盘,免去了安装和设置自启动的步骤&lt;/li&gt;
-  &lt;li&gt;在使用之前,需要保证有一个能访问的 Google 的方法,然后尽量使用 gcloud 工具管理启动你的 GCP VM&lt;/li&gt;
-  &lt;li&gt;在搬瓦工中的openvz 结构的主机,是没有升级内核的能力的,所以搬瓦工的openvz机型是没法调优&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;http-proxy问题&quot;&gt;http proxy问题&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;使用privoxy,讲 ss 转为 http 代理,配置文件位置&lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/privoxy/config&lt;/code&gt; 重启命令&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo service privoxy restart&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;curl google.com&lt;/code&gt; 测试是否成功&lt;/li&gt;
-  &lt;li&gt;设置完成之后,如果想让 gsutil,gcloud 等工具正常使用,让 chrome 重启才可以使用&lt;/li&gt;
-  &lt;li&gt;gcloud gsutil 设置&lt;a href=&quot;https://medium.com/google-cloud/configuring-gcloud-gsutil-and-bq-to-use-proxy-servers-4f09dbaf42c2&quot;&gt;教程&lt;/a&gt;,注意, gsutil 只能使用http代理,而且&lt;code class=&quot;highlighter-rouge&quot;&gt;.boto&lt;/code&gt; 实际上配置不起作用&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcloud config &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;proxy/type http
-gcloud config &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;proxy/address 127.0.0.1
-gcloud config &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;proxy/port 8188
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>zhouyao</name></author><summary type="html">使用GCP高速访问Google</summary></entry></feed>
+&lt;p&gt;函数名表示API.基本描述,表示注释&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">推荐的有用的计算机课程</summary></entry></feed>

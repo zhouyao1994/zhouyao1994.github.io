@@ -11,7 +11,7 @@
 
     
 
-    <title>可视化工具altair To Do</title>
+    <title>微服务架构初探 To Do</title>
 
     
       <!-- Update your html tag to include the itemscope and itemtype attributes. -->
@@ -32,15 +32,15 @@
 
   <meta name="author" content="zhouyao">
 
-<meta name="description" content="从Google colab 中衍生出的知识" />
+<meta name="description" content="微服务架构" />
 
 
 
 
 
 <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="可视化工具altair To Do">
-<meta itemprop="description" content="从Google colab 中衍生出的知识">
+<meta itemprop="name" content="微服务架构初探 To Do">
+<meta itemprop="description" content="微服务架构">
 
   <meta itemprop="image" content="http://localhost:4000/thumbnail-jumbo.png">
 
@@ -50,8 +50,8 @@
 
 
 
-<meta name="twitter:title" content="可视化工具altair To Do">
-<meta name="twitter:description" content="从Google colab 中衍生出的知识">
+<meta name="twitter:title" content="微服务架构初探 To Do">
+<meta name="twitter:description" content="微服务架构">
 
 
   <meta name="twitter:creator" content="@zhouyao">
@@ -62,19 +62,19 @@
   <meta name="twitter:image:src" content="http://localhost:4000/thumbnail-jumbo.png">
   <meta property="twitter:image" content="http://localhost:4000/thumbnail-jumbo.png">
 
-<meta property="twitter:url" content="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7altair-to-do.html">
+<meta property="twitter:url" content="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2-to-do.html">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="可视化工具altair To Do" />
+<meta property="og:title" content="微服务架构初探 To Do" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7altair-to-do.html" />
+<meta property="og:url" content="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2-to-do.html" />
 
   <meta property="og:image" content="http://localhost:4000/thumbnail-jumbo.png" />
 
-<meta property="og:description" content="从Google colab 中衍生出的知识" />
+<meta property="og:description" content="微服务架构" />
 <meta property="og:site_name" content="羽光的博客" />
 
-  <meta property="article:published_time" content="2018-09-14T00:00:00+08:00" />
+  <meta property="article:published_time" content="2018-09-19T00:00:00+08:00" />
 
 
 
@@ -104,7 +104,7 @@
 
     
 
-    <link rel="canonical" href="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7altair-to-do.html">
+    <link rel="canonical" href="http://localhost:4000/2018/09/19/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%88%9D%E6%8E%A2-to-do.html">
 
     
 
@@ -196,15 +196,15 @@
     
 
     <section class="page-header">
-      <h1 class="project-name">可视化工具altair To Do</h1>
+      <h1 class="project-name">微服务架构初探 To Do</h1>
       <h2 class="project-tagline"></h2>
       
       <!-- Post tagline -->
       
         <h2 class="project-date">
-        <time datetime="2018-09-14T00:00:00+08:00" itemprop="datePublished">
+        <time datetime="2018-09-19T00:00:00+08:00" itemprop="datePublished">
           
-          Sep 14, 2018
+          Sep 19, 2018
         </time>
         
         
@@ -220,92 +220,22 @@
       <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <!-- <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">可视化工具altair To Do</h1>
+    <h1 class="post-title" itemprop="name headline">微服务架构初探 To Do</h1>
     <p class="post-meta">
-      <time datetime="2018-09-14T00:00:00+08:00" itemprop="datePublished">
+      <time datetime="2018-09-19T00:00:00+08:00" itemprop="datePublished">
         
-        Sep 14, 2018
+        Sep 19, 2018
       </time>
       </p>
   </header> -->
 
   <div itemprop="articleBody">
-    <h1 id="从google-colab-中衍生出的知识">从Google colab 中衍生出的知识</h1>
+    <h1 id="微服务架构">微服务架构</h1>
 
-<h2 id="基于描述性语言的可视化工具altair">基于描述性语言的可视化工具altair</h2>
-
-<ul>
-  <li>
-    <p><a href="https://altair-viz.github.io/getting_started/overview.html">官网网站</a>,特点基于描述性语言例如:</p>
-
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">cars</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="s">'Horsepower'</span><span class="p">,</span>
-    <span class="n">y</span><span class="o">=</span><span class="s">'Miles_per_Gallon'</span><span class="p">,</span>
-    <span class="n">color</span><span class="o">=</span><span class="s">'Origin'</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">interactive</span><span class="p">()</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>可交互性的图表,实时调整数据的格式,并导出</p>
-  </li>
-  <li>
-    <p>有一个可以交互的<a href="https://vega.github.io/"> Editor </a> 来自华盛顿大小的<a href="https://idl.cs.washington.edu/">交互式可视化实验室</a>,实验室有很多有趣的项目,例如<a href="https://vimeo.com/channels/uwdata/93181322">身体可视化</a>的 Body Diagrams ,和大名鼎鼎的<a href="https://d3js.org/">D3.js</a></p>
-  </li>
-</ul>
-
-<h2 id="altair-资料">Altair 资料</h2>
-
-<p>Altair pycon 2018<a href="https://www.youtube.com/watch?v=ms29ZPUKxbU">演讲介绍</a>,<a href="https://altair-viz.github.io/">文档</a>,<a href="https://github.com/altair-viz/altair-tutorial">Tutorial</a>.</p>
-
-<p>类似的可视化工具 Voyage ,<a href="https://vimeo.com/199084718">介绍视频</a>,<a href="https://github.com/vega/voyager"> github 源码</a>, <a href="https://data-voyager.gitbook.io/voyager/">文档</a>,试用<a href="http://vega.github.io/voyager/">链接</a></p>
-
-<h2 id="matplotlib-与-altair">Matplotlib 与 Altair</h2>
-
-<p>Matplotlib特点:</p>
+<p>微服务的<a href="https://microservices.io/patterns/microservices.html">参考链接</a></p>
 
 <ul>
-  <li>Matlab语法</li>
-  <li>强大的画图工具</li>
-  <li>有各种渲染的后端</li>
-  <li>测试的很好,稳定有效的运行了15年</li>
-  <li>API imperative 而且冗长,无法交互,无法web化</li>
-</ul>
-
-<p>API的特点:</p>
-
-<ul>
-  <li>步骤式的,把x放这里,y放这里表明事情怎么做</li>
-</ul>
-
-<h2 id="灵感来自colab-自带的示例代码">灵感来自Colab 自带的示例代码</h2>
-
-<p>可以使用 Code Snipt 中的 Filter 筛选功能,关键字筛选代码并查看.</p>
-
-<ul>
-  <li>可视化工具
-    <ul>
-      <li>Altair</li>
-    </ul>
-  </li>
-  <li>显示方式
-    <ul>
-      <li>JavaScript</li>
-    </ul>
-  </li>
-  <li>数据集操作
-    <ul>
-      <li>从 Google Sheet 中导入,导出数据</li>
-      <li>从 Google Drive 中导入导出,挂载到Colab中</li>
-      <li>从 Google Storage 中导入,导出数据</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="tensorflow-这么漂亮的代码是怎么生成的-to-do">TensorFlow 这么漂亮的代码是怎么生成的 to-do</h2>
-
-<ul>
-  <li>在使用TensorFlow文档的时候,这种左右布局,左边是列表,右边是目录的布局很好用,于是有了这个疑问</li>
-  <li>使用bazel工具,详细的<a href="https://www.tensorflow.org/community/documentation?hl=zh-cn">页面如下</a></li>
+  <li>初期开发的时候,不利于</li>
 </ul>
 
   </div>

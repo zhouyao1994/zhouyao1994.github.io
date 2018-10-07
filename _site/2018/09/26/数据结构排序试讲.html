@@ -11,7 +11,7 @@
 
     
 
-    <title>Sqlite源码阅读资料</title>
+    <title>数据结构排序试讲</title>
 
     
       <!-- Update your html tag to include the itemscope and itemtype attributes. -->
@@ -32,15 +32,15 @@
 
   <meta name="author" content="zhouyao">
 
-<meta name="description" content="官方文档中 Sqlite 源码阅读" />
+<meta name="description" content="数据结构试讲之排序" />
 
 
 
 
 
 <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="Sqlite源码阅读资料">
-<meta itemprop="description" content="官方文档中 Sqlite 源码阅读">
+<meta itemprop="name" content="数据结构排序试讲">
+<meta itemprop="description" content="数据结构试讲之排序">
 
   <meta itemprop="image" content="http://localhost:4000/thumbnail-jumbo.png">
 
@@ -50,8 +50,8 @@
 
 
 
-<meta name="twitter:title" content="Sqlite源码阅读资料">
-<meta name="twitter:description" content="官方文档中 Sqlite 源码阅读">
+<meta name="twitter:title" content="数据结构排序试讲">
+<meta name="twitter:description" content="数据结构试讲之排序">
 
 
   <meta name="twitter:creator" content="@zhouyao">
@@ -62,19 +62,19 @@
   <meta name="twitter:image:src" content="http://localhost:4000/thumbnail-jumbo.png">
   <meta property="twitter:image" content="http://localhost:4000/thumbnail-jumbo.png">
 
-<meta property="twitter:url" content="http://localhost:4000/2018/09/10/sqlite%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E8%B5%84%E6%96%99.html">
+<meta property="twitter:url" content="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Sqlite源码阅读资料" />
+<meta property="og:title" content="数据结构排序试讲" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:4000/2018/09/10/sqlite%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E8%B5%84%E6%96%99.html" />
+<meta property="og:url" content="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html" />
 
   <meta property="og:image" content="http://localhost:4000/thumbnail-jumbo.png" />
 
-<meta property="og:description" content="官方文档中 Sqlite 源码阅读" />
+<meta property="og:description" content="数据结构试讲之排序" />
 <meta property="og:site_name" content="羽光的博客" />
 
-  <meta property="article:published_time" content="2018-09-10T00:00:00+08:00" />
+  <meta property="article:published_time" content="2018-09-26T00:00:00+08:00" />
 
 
 
@@ -104,7 +104,7 @@
 
     
 
-    <link rel="canonical" href="http://localhost:4000/2018/09/10/sqlite%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E8%B5%84%E6%96%99.html">
+    <link rel="canonical" href="http://localhost:4000/2018/09/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%8E%92%E5%BA%8F%E8%AF%95%E8%AE%B2.html">
 
     
 
@@ -196,15 +196,15 @@
     
 
     <section class="page-header">
-      <h1 class="project-name">Sqlite源码阅读资料</h1>
+      <h1 class="project-name">数据结构排序试讲</h1>
       <h2 class="project-tagline"></h2>
       
       <!-- Post tagline -->
       
         <h2 class="project-date">
-        <time datetime="2018-09-10T00:00:00+08:00" itemprop="datePublished">
+        <time datetime="2018-09-26T00:00:00+08:00" itemprop="datePublished">
           
-          Sep 10, 2018
+          Sep 26, 2018
         </time>
         
         
@@ -220,27 +220,70 @@
       <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <!-- <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Sqlite源码阅读资料</h1>
+    <h1 class="post-title" itemprop="name headline">数据结构排序试讲</h1>
     <p class="post-meta">
-      <time datetime="2018-09-10T00:00:00+08:00" itemprop="datePublished">
+      <time datetime="2018-09-26T00:00:00+08:00" itemprop="datePublished">
         
-        Sep 10, 2018
+        Sep 26, 2018
       </time>
       </p>
   </header> -->
 
   <div itemprop="articleBody">
-    <h1 id="官方文档中">官方文档中</h1>
-<h1 id="sqlite-源码阅读">Sqlite 源码阅读</h1>
+    <h1 id="数据结构试讲之排序">数据结构试讲之排序</h1>
+
+<h2 id="插入排序">插入排序</h2>
 
 <ul>
-  <li>首先,你得需要一份<a href="https://www.sqlite.org/download.html">源码</a>,建议选择文件大的那个下载</li>
-  <li>你要能<a href="https://www.sqlite.org/howtocompile.html">运行它</a>,这份文档中描述了该如何编译</li>
-  <li>你需要知道,调试源码的<a href="https://www.slideshare.net/onceuponatimeforever/lets-read-code">方法论</a>当你耐心的阅读完这份PPT,跟着作者的思路,去了解是如何阅读一个未知代码的方法,相信这些方法能给你带来启发</li>
-  <li>数据库的<a href="https://www.sqlite.org/arch.html">架构</a>,完整的阅读完,这一部分,记住文中的那张图,能在你脑海中,有一个大致的方向</li>
-  <li>这篇文章描述了Sqllite的<a href="https://sqlite.org/th3.html">测试方法</a>,包括用tcl脚本,和一些覆盖性的测试,难以相信,仅仅有8w行的sqlite源码,居然有约50万行的测试代码.这个链接描述了<a href="https://sqlite.org/testing.html">测试的一些细节</a></li>
-  <li>如果你对存储结构感兴趣,可以阅读<a href="https://sqlite.org/fileformat2.html">这一节文档</a>它会描述,sqlite文件,是按怎么样的二进制格式写入磁盘,也会描述,每个bit表示什么意义,如果你自己生成一个sqlite文件,用hexeditor打开它,并且查看每个bit的意义,能让你更深刻的体会到系统软件对存储空间的锱铢必较,hexeditor有很多种类,在这个<a href="https://en.wikipedia.org/wiki/Comparison_of_hex_editors">页面</a>你能看到对这些editor的比较</li>
+  <li>应用:打扑克牌,收试卷,交作业</li>
+  <li>档案整理工作:图书管理工作:</li>
 </ul>
+
+<h2 id="排序问题举例">排序问题举例</h2>
+
+<p>[2,9,25,16,1,3,100,5],<a href="http://panthema.net/2013/sound-of-sorting/">插入排序举例</a></p>
+
+<h2 id="冒泡排序">冒泡排序</h2>
+
+<ul>
+  <li>冒泡排序<a href="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif">演示地址</a></li>
+  <li>时间复杂度分析<script type="math/tex">(n-1)+(n-2)+... 3+2+1=(n-1+1)*n/2 = 1/2*n^2</script> 用计算机的行话就表示O(<script type="math/tex">n^2</script>)</li>
+  <li>做法很傻,跟人肉手动比较一下运行时间</li>
+</ul>
+
+<p>先普及一下CPU主频的知识,3.2G,表示<script type="math/tex">3.2*10^9</script>次时钟频率,假设,有10万个数字需要你排序,n^2 复杂度.10万*10万=100亿= <script type="math/tex">10 * 10^9</script> 保守估计,也就5秒钟,就计算完了.我们人类天生是对大量级的数字不敏感的,我们学计算机的就要克服这种现象,凡事都要从量级的角度去考虑问题,不能仅仅局限在几十,几百几千的量级,要把眼光放到几百万,几千万,几十亿这个量级上思考.</p>
+
+<ul>
+  <li>这个方法,不常用,但是很好理解.而且效果明显.实现起来方便.</li>
+</ul>
+
+<h2 id="快速排序">快速排序</h2>
+
+<ul>
+  <li>快速排序<a href="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif?1538104742565">演示地址</a></li>
+  <li>跟冒泡排序相比,更不好理解</li>
+  <li>时间复杂度分析<script type="math/tex">\underbrace{n+2*\frac{n}{2}+4*\frac{n}{4}}</script> 一共有<script type="math/tex">log_2^n</script>个项,所以结果复杂度为:<script type="math/tex">n* log_2^n</script></li>
+  <li>应用,当有全校的档案,10万个数字排序,<script type="math/tex">n*log_2^n</script> =100万=10^6 按CPU 的主频计算不到0.001秒,就计算完成了,保守估计1000倍的效率,如果同样的一个排序任务冒泡需要15分钟,快速排序只需要10天,才能算完.对比一下这计算差距,才能知道震撼</li>
+  <li><a href="http://wiki.jikexueyuan.com/project/easy-learn-algorithm/fast-sort.html">极客学院参考链接</a>,维基百科<a href="https://www.wikiwand.com/en/Quicksort">参考链接</a></li>
+</ul>
+
+<h2 id="外部排序算法">外部排序算法</h2>
+
+<ul>
+  <li>外部排序<a href="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif?1537845762878">演示地址</a></li>
+  <li>解决的问题:内存放不下,</li>
+  <li>时间复杂度</li>
+  <li>直观的<a href="https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif">演示示例</a></li>
+</ul>
+
+<h2 id="数据结构需要锻炼的技能">数据结构需要锻炼的技能</h2>
+
+<p>在有限的资源和能力条件下,做出想要的效果.</p>
+
+<h2 id="课程的参考链接">课程的参考链接</h2>
+
+<p>如果你对排序算法感兴趣,可以去维基百科上查看<a href="https://www.wikiwand.com/en/Sorting_algorithm">英文维基百科</a>,<a href="https://www.wikiwand.com/en/Sorting_algorithm">中文排序维基百科</a></p>
+
 
   </div>
 

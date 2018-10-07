@@ -26,3 +26,5 @@ TensorFlow文档[链接](https://www.tensorflow.org/guide/estimators#advantages_
 
 ## Estimator 实验
 
+* 在 Cousera 中的课程中提供了练习文件[Github trainning-data-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive/03_tensorflow/b_estimator.ipynb)提供了很好范例
+
