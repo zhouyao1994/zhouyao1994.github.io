@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-07T18:17:43+08:00</updated><id>http://localhost:4000/</id><title type="html">羽光的博客</title><subtitle>Hi,你好啊.我是周耀,网名:羽光,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">Push已存在的代码到github</title><link href="http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github.html" rel="alternate" type="text/html" title="Push已存在的代码到github" /><published>2018-10-07T00:00:00+08:00</published><updated>2018-10-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github</id><content type="html" xml:base="http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github.html">&lt;h1 id=&quot;push-已存在的代码到github中&quot;&gt;Push 已存在的代码到Github中&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-31T10:14:16+08:00</updated><id>http://localhost:4000/</id><title type="html">羽光的博客</title><subtitle>Hi,你好啊.我是周耀,网名:羽光,这是我的博客,希望你在读过之后能给你带来帮助.</subtitle><author><name>zhouyao</name></author><entry><title type="html">极客时间左耳朵耗子直播</title><link href="http://localhost:4000/2018/10/29/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4%E5%B7%A6%E8%80%B3%E6%9C%B5%E8%80%97%E5%AD%90%E7%9B%B4%E6%92%AD.html" rel="alternate" type="text/html" title="极客时间左耳朵耗子直播" /><published>2018-10-29T00:00:00+08:00</published><updated>2018-10-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/29/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4%E5%B7%A6%E8%80%B3%E6%9C%B5%E8%80%97%E5%AD%90%E7%9B%B4%E6%92%AD</id><content type="html" xml:base="http://localhost:4000/2018/10/29/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4%E5%B7%A6%E8%80%B3%E6%9C%B5%E8%80%97%E5%AD%90%E7%9B%B4%E6%92%AD.html">&lt;h1 id=&quot;左耳朵耗子直播&quot;&gt;左耳朵耗子直播&lt;/h1&gt;
+
+&lt;h2 id=&quot;提到的观点&quot;&gt;提到的观点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;当遇到选择A还是选择B的时候专注于自己能得到的东西,一般来说平庸的人都会患得患失,例如现在,我遇到的问题就是是去北京工作,还是回武汉工作,两份工作,都相对来说比较好,去北京,加入的是一个200人左右的高速发展的创业公司,可能需要的能力是自己定义问题,然后自己想办法去解决问题. 会北京加入的是一个比较成熟的的团队,自己能得到的是,一个比较大的平台,然后有很成熟的业务线等等,&lt;/li&gt;
+  &lt;li&gt;使用极客时间的方法,子啊听耗子叔讲自己写极客时间的过程,查阅了大量的资料,翻阅了几千篇博客,既然耗子叔花费的这么多时间,筛选出了这么多博客,自己就应该好好使用这种别人筛选过的博客,应该把极客时间当成一个地图,当一个阅读的书单,按图索骥,我自己写这篇博客的初衷也是想帮助后来的同学能够按图索骥,快速学习,积累经验这可以说是不谋而合了.&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>zhouyao</name></author><summary type="html">左耳朵耗子直播</summary></entry><entry><title type="html">面试小米是推荐的redis源码阅读</title><link href="http://localhost:4000/2018/10/20/%E9%9D%A2%E8%AF%95%E5%B0%8F%E7%B1%B3%E6%98%AF%E6%8E%A8%E8%8D%90%E7%9A%84Redis%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB.html" rel="alternate" type="text/html" title="面试小米是推荐的redis源码阅读" /><published>2018-10-20T00:00:00+08:00</published><updated>2018-10-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/20/%E9%9D%A2%E8%AF%95%E5%B0%8F%E7%B1%B3%E6%98%AF%E6%8E%A8%E8%8D%90%E7%9A%84Redis%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB</id><content type="html" xml:base="http://localhost:4000/2018/10/20/%E9%9D%A2%E8%AF%95%E5%B0%8F%E7%B1%B3%E6%98%AF%E6%8E%A8%E8%8D%90%E7%9A%84Redis%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB.html">&lt;h1 id=&quot;redis-源码阅读&quot;&gt;Redis 源码阅读&lt;/h1&gt;
+
+&lt;h2 id=&quot;缘起&quot;&gt;缘起&lt;/h2&gt;
+
+&lt;p&gt;在成都面试小米二面的时候,跟面试官聊起了&lt;code class=&quot;highlighter-rouge&quot;&gt;Sqlite&lt;/code&gt;数据库的二进制机制,提到过Sqlite底层为了节省磁盘的空间,采取的一些&lt;a href=&quot;&quot;&gt;措施&lt;/a&gt;,在我讲完之后,面试官提到过&lt;code class=&quot;highlighter-rouge&quot;&gt;Redis&lt;/code&gt;和另外一个不记得的库,这次跑完招聘会之后,回到学校突然兴致来了就顺带查了下Redis的使用&lt;/p&gt;
+
+&lt;h2 id=&quot;搜集的redis的资料&quot;&gt;搜集的Redis的资料&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;用Clion&lt;a href=&quot;https://liuzhengyang.github.io/2017/08/13/debug-redis/&quot;&gt;阅读源码&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;像&lt;a href=&quot;https://www.openmymind.net/2011/11/8/Redis-Zero-To-Master-In-30-Minutes-Part-2/&quot;&gt;大师一样使用Redis&lt;/a&gt;这篇文章中提到比较好的一个观点是,像专家一样使用Redis并不是说记住Reids的API,而是了解Redis的机制,使得现实场景下的问题模型,刚好适合Reids提供的机制,从而最大化Redis的威力,&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Before we start, you might have noticed that Redis’ API isn’t like most. Rather than having 4 generic CRUD methods, Redis has a number of specialized methods. So far we’ve only looked at a small percentage of them. Our application will only make use of a handful. This is a pretty common usage pattern. Some commands you might never use, some commands make you think wow, that’s exactly what I need when you happen to be browsing through the online reference. Mastering Redis isn’t about memorizing all the commands (not that there’s an insane amount). It’s about (a) understanding the 5 data structures, (b) understanding how to model data and query it using Redis and (c) combining a and b to easily tell whether Redis is a good fit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;使用Redis 做一个&lt;a href=&quot;http://sunilarora.org/url-shortener-service-using-redis/&quot;&gt;短网址网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Redis最大能有多少个Key?单个节点可以处理&lt;a href=&quot;https://redis.io/topics/faq&quot;&gt;2.5亿个&lt;/a&gt;很多时候,都是受制于内存大小,当内存超出的时候,会出现swap情况,造成性能下降&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To give you a few examples (all obtained using 64-bit instances):&lt;/p&gt;
+
+  &lt;p&gt;An empty instance uses ~ 3MB of memory.
+1 Million small Keys -&amp;gt; String Value pairs use ~ 85MB of memory.
+1 Million Keys -&amp;gt; Hash value, representing an object with 5 fields, use ~ 160 MB of memory.
+To test your use case is trivial using the redis-benchmark utility to generate random data sets and check with the INFO memory command the space used.&lt;/p&gt;
+
+  &lt;p&gt;64-bit systems will use considerably more memory than 32-bit systems to store the same keys, especially if the keys and values are small. This is because pointers take 8 bytes in 64-bit systems. But of course the advantage is that you can have a lot of memory in 64-bit systems, so in order to run large Redis servers a 64-bit system is more or less required. The alternative is sharding&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>zhouyao</name></author><summary type="html">Redis 源码阅读</summary></entry><entry><title type="html">Push已存在的代码到github</title><link href="http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github.html" rel="alternate" type="text/html" title="Push已存在的代码到github" /><published>2018-10-07T00:00:00+08:00</published><updated>2018-10-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github</id><content type="html" xml:base="http://localhost:4000/2018/10/07/Push%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%88%B0Github.html">&lt;h1 id=&quot;push-已存在的代码到github中&quot;&gt;Push 已存在的代码到Github中&lt;/h1&gt;
+
+&lt;p&gt;第一步先创建远程仓库&lt;/p&gt;
+
+&lt;p&gt;第二步分为两种方案&lt;/p&gt;
 
 &lt;h2 id=&quot;方案一使用-bash&quot;&gt;方案一:使用 bash&lt;/h2&gt;
 
@@ -9,8 +56,8 @@ git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
 &lt;h2 id=&quot;方案二使用pycharm-ide-git-工具&quot;&gt;方案二:使用Pycharm IDE git 工具&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;设置remote origin&lt;/li&gt;
-  &lt;li&gt;push代码&lt;/li&gt;
+  &lt;li&gt;设置&lt;code class=&quot;highlighter-rouge&quot;&gt;remote origin&lt;/code&gt; 路径&lt;code class=&quot;highlighter-rouge&quot;&gt;VCS-&amp;gt;git-&amp;gt;remote&lt;/code&gt;设置好remote&lt;/li&gt;
+  &lt;li&gt;push代码路径&lt;code class=&quot;highlighter-rouge&quot;&gt;VCS-&amp;gt;git-&amp;gt;remote&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">Push 已存在的代码到Github中</summary></entry><entry><title type="html">Sql练习搜集资料</title><link href="http://localhost:4000/2018/10/04/SQL%E7%BB%83%E4%B9%A0%E6%90%9C%E9%9B%86%E8%B5%84%E6%96%99.html" rel="alternate" type="text/html" title="Sql练习搜集资料" /><published>2018-10-04T00:00:00+08:00</published><updated>2018-10-04T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/04/SQL%E7%BB%83%E4%B9%A0%E6%90%9C%E9%9B%86%E8%B5%84%E6%96%99</id><content type="html" xml:base="http://localhost:4000/2018/10/04/SQL%E7%BB%83%E4%B9%A0%E6%90%9C%E9%9B%86%E8%B5%84%E6%96%99.html">&lt;h1 id=&quot;sql练习工具&quot;&gt;SQL练习工具&lt;/h1&gt;
 
 &lt;h2 id=&quot;为什么要练习sql语句&quot;&gt;为什么要练习SQL语句&lt;/h2&gt;
@@ -182,97 +229,4 @@ git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
   &lt;li&gt;10-底层 API 练习&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;练习文件,全部可以在colab上运行,也可下载到本地,用 Jupyter Notebook 运行&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">练习深度学习指南</summary></entry><entry><title type="html">可视化工具altair</title><link href="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7Altair.html" rel="alternate" type="text/html" title="可视化工具altair" /><published>2018-09-14T00:00:00+08:00</published><updated>2018-09-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7Altair</id><content type="html" xml:base="http://localhost:4000/2018/09/14/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7Altair.html">&lt;h1 id=&quot;从google-colab-中衍生出的知识&quot;&gt;从Google colab 中衍生出的知识&lt;/h1&gt;
-
-&lt;h2 id=&quot;基于描述性语言的可视化工具altair&quot;&gt;基于描述性语言的可视化工具altair&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://altair-viz.github.io/getting_started/overview.html&quot;&gt;官网网站&lt;/a&gt;,特点基于描述性语言例如:&lt;/p&gt;
-
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Chart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Horsepower'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Miles_per_Gallon'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;可交互性的图表,实时调整数据的格式,并导出&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;有一个可以交互的&lt;a href=&quot;https://vega.github.io/&quot;&gt; Editor &lt;/a&gt; 来自华盛顿大小的&lt;a href=&quot;https://idl.cs.washington.edu/&quot;&gt;交互式可视化实验室&lt;/a&gt;,实验室有很多有趣的项目,例如&lt;a href=&quot;https://vimeo.com/channels/uwdata/93181322&quot;&gt;身体可视化&lt;/a&gt;的 Body Diagrams ,和大名鼎鼎的&lt;a href=&quot;https://d3js.org/&quot;&gt;D3.js&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;altair-资料&quot;&gt;Altair 资料&lt;/h2&gt;
-
-&lt;p&gt;Altair pycon 2018&lt;a href=&quot;https://www.youtube.com/watch?v=ms29ZPUKxbU&quot;&gt;演讲介绍&lt;/a&gt;,&lt;a href=&quot;https://altair-viz.github.io/&quot;&gt;文档&lt;/a&gt;,&lt;a href=&quot;https://github.com/altair-viz/altair-tutorial&quot;&gt;Tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;类似的可视化工具 Voyage ,&lt;a href=&quot;https://vimeo.com/199084718&quot;&gt;介绍视频&lt;/a&gt;,&lt;a href=&quot;https://github.com/vega/voyager&quot;&gt; github 源码&lt;/a&gt;, &lt;a href=&quot;https://data-voyager.gitbook.io/voyager/&quot;&gt;文档&lt;/a&gt;,试用&lt;a href=&quot;http://vega.github.io/voyager/&quot;&gt;链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;matplotlib-与-altair&quot;&gt;Matplotlib 与 Altair&lt;/h2&gt;
-
-&lt;p&gt;Matplotlib特点:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Matlab语法&lt;/li&gt;
-  &lt;li&gt;强大的画图工具&lt;/li&gt;
-  &lt;li&gt;有各种渲染的后端&lt;/li&gt;
-  &lt;li&gt;测试的很好,稳定有效的运行了15年&lt;/li&gt;
-  &lt;li&gt;API imperative 而且冗长,无法交互,无法web化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;API的特点:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;步骤式的,把x放这里,y放这里表明事情怎么做&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;灵感来自colab-自带的示例代码&quot;&gt;灵感来自Colab 自带的示例代码&lt;/h2&gt;
-
-&lt;p&gt;可以使用 Code Snipt 中的 Filter 筛选功能,关键字筛选代码并查看.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;可视化工具
-    &lt;ul&gt;
-      &lt;li&gt;Altair&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;显示方式
-    &lt;ul&gt;
-      &lt;li&gt;JavaScript&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;数据集操作
-    &lt;ul&gt;
-      &lt;li&gt;从 Google Sheet 中导入,导出数据&lt;/li&gt;
-      &lt;li&gt;从 Google Drive 中导入导出,挂载到Colab中&lt;/li&gt;
-      &lt;li&gt;从 Google Storage 中导入,导出数据&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zhouyao</name></author><summary type="html">从Google colab 中衍生出的知识</summary></entry><entry><title type="html">Awesom Courses</title><link href="http://localhost:4000/2018/09/13/Awesom-courses.html" rel="alternate" type="text/html" title="Awesom Courses" /><published>2018-09-13T00:00:00+08:00</published><updated>2018-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2018/09/13/Awesom-courses</id><content type="html" xml:base="http://localhost:4000/2018/09/13/Awesom-courses.html">&lt;h1 id=&quot;推荐的有用的计算机课程&quot;&gt;推荐的有用的计算机课程&lt;/h1&gt;
-
-&lt;h2 id=&quot;我自己学过的&quot;&gt;我自己学过的&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Andrew NG Deeplearning&lt;/li&gt;
-  &lt;li&gt;prakhar搜集的&lt;a href=&quot;https://github.com/prakhar1989/awesome-courses&quot;&gt;课程资料&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CMU &lt;a href=&quot;https://15445.courses.cs.cmu.edu/fall2018/&quot;&gt;Database 课程&lt;/a&gt;,包括&lt;a href=&quot;https://www.youtube.com/watch?v=vyVGm_2iFwU&amp;amp;list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7&quot;&gt; Youtube 链接&lt;/a&gt;,这个课程要求修改Sqlite源码,你可以在 Github 上找到&lt;a href=&quot;https://github.com/xingdl2007/cmu15-445&quot;&gt;其他同学做过的作业&lt;/a&gt;,或者你自己在 Google 上搜索,课程名+Github 做关键字&lt;/li&gt;
-  &lt;li&gt;这个&lt;a href=&quot;https://youtu.be/PorfLSr3DDI&quot;&gt;视频&lt;/a&gt;介绍了用 GDB 进行可视化 Debug 的例子,很有用&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;aws-education&quot;&gt;AWS Education&lt;/h2&gt;
-
-&lt;p&gt;实验一使用lambda 函数,参考资料&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api&quot;&gt;Best Practices for a Pragmatic RESTful API&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html&quot;&gt;Amazon API Gateway Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://docs.aws.amazon.com/lambda/latest/dg/welcome.html&quot;&gt;Amazon Lambda Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://microservices.io/index.html&quot;&gt;Microservice Architecture patterns and best practices&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ics.uci.edu/%7Efielding/pubs/dissertation/rest_arch_style.htm&quot;&gt;Representational State Transfer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-create-api.html&quot;&gt;Creating an API Endpoint&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;函数名表示API.基本描述,表示注释&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">推荐的有用的计算机课程</summary></entry></feed>
+&lt;p&gt;练习文件,全部可以在colab上运行,也可下载到本地,用 Jupyter Notebook 运行&lt;/p&gt;</content><author><name>zhouyao</name></author><summary type="html">练习深度学习指南</summary></entry></feed>
